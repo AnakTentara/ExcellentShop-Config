@@ -1,0 +1,5126 @@
+Settings:
+  Aliases: []
+  Name: Colored Blocks
+  Description:
+  - <gray>Beautify your builds with</gray>
+  - <gray>different block colors.</gray>
+  - ' '
+  - <c:#FF7222>→ <b><u>CLICK</u></b> to browse</c>
+  Icon:
+    Material: minecraft:player_head
+    Display_Name: <c:#FF7222><b>COLORED BLOCKS</b></c>
+    Lore: []
+    SkinURL: 7a7d6c0accd2e9ccaefa96b9438d6e202fec795acf7072bcfd9cd9d4b5a32b0e
+  Permission_Required: false
+  Buying: true
+  Selling: true
+  Pages: 11
+  MainMenu:
+    Slot: '12'
+  Layout:
+    Paginated: false
+Items:
+  black_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 1
+  gray_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gray_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 1
+  light_gray_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_gray_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 1
+  white_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  blue_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blue_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 1
+  cyan_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cyan_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 1
+  light_blue_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_blue_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 1
+  purple_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:purple_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 1
+  magenta_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magenta_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 1
+  pink_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pink_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 1
+  red_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 1
+  brown_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 1
+  orange_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:orange_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 1
+  yellow_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:yellow_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 1
+  lime_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:lime_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 1
+  green_wool:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:green_wool"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 1
+  black_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 2
+  gray_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gray_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 2
+  light_gray_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_gray_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 2
+  white_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 2
+  blue_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blue_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 2
+  cyan_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cyan_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 2
+  light_blue_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_blue_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 2
+  purple_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:purple_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 2
+  magenta_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magenta_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 2
+  pink_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pink_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 2
+  red_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 2
+  brown_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 2
+  orange_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:orange_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 2
+  yellow_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:yellow_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 2
+  lime_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:lime_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 2
+  green_carpet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:green_carpet"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 2
+  black_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 3
+  gray_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gray_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 3
+  light_gray_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_gray_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 3
+  white_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 3
+  blue_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blue_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 3
+  cyan_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cyan_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 3
+  light_blue_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_blue_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 3
+  purple_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:purple_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 3
+  magenta_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magenta_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 3
+  pink_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pink_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 3
+  red_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 3
+  brown_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 3
+  orange_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:orange_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 3
+  yellow_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:yellow_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 3
+  lime_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:lime_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 3
+  green_stained_glass:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:green_stained_glass"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 3
+  black_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 4
+  gray_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gray_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 4
+  light_gray_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_gray_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 4
+  white_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 4
+  blue_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blue_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 4
+  cyan_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cyan_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 4
+  light_blue_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_blue_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 4
+  purple_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:purple_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 4
+  magenta_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magenta_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 4
+  pink_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pink_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 4
+  red_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 4
+  brown_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 4
+  orange_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:orange_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 4
+  yellow_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:yellow_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 4
+  lime_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:lime_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 4
+  green_stained_glass_pane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:green_stained_glass_pane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 4
+  black_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 5
+  gray_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gray_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 5
+  light_gray_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_gray_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 5
+  white_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 5
+  blue_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blue_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 5
+  cyan_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cyan_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 5
+  light_blue_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_blue_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 5
+  purple_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:purple_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 5
+  magenta_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magenta_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 5
+  pink_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pink_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 5
+  red_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 5
+  brown_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 5
+  orange_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:orange_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 5
+  yellow_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:yellow_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 5
+  lime_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:lime_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 5
+  green_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:green_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 5
+  black_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 6
+  gray_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gray_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 6
+  light_gray_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_gray_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 6
+  white_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 6
+  blue_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blue_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 6
+  cyan_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cyan_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 6
+  light_blue_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_blue_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 6
+  purple_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:purple_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 6
+  magenta_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magenta_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 6
+  pink_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pink_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 6
+  red_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 6
+  brown_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 6
+  orange_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:orange_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 6
+  yellow_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:yellow_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 6
+  lime_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:lime_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 6
+  green_banner:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:green_banner"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 6
+  black_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 7
+  gray_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gray_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 7
+  light_gray_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_gray_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 7
+  white_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 7
+  blue_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blue_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 7
+  cyan_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cyan_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 7
+  light_blue_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_blue_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 7
+  purple_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:purple_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 7
+  magenta_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magenta_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 7
+  pink_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pink_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 7
+  red_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 7
+  brown_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 7
+  orange_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:orange_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 7
+  yellow_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:yellow_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 7
+  lime_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:lime_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 7
+  green_concrete_powder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:green_concrete_powder"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 7
+  black_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 8
+  gray_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gray_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 8
+  light_gray_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_gray_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 8
+  white_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 8
+  blue_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blue_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 8
+  cyan_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cyan_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 8
+  light_blue_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_blue_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 8
+  purple_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:purple_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 8
+  magenta_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magenta_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 8
+  pink_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pink_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 8
+  red_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 8
+  brown_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 8
+  orange_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:orange_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 8
+  yellow_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:yellow_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 8
+  lime_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:lime_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 8
+  green_concrete:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:green_concrete"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 8
+  black_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 9
+  gray_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gray_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 9
+  light_gray_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_gray_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 9
+  white_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 9
+  blue_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blue_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 9
+  cyan_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cyan_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 9
+  light_blue_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_blue_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 9
+  purple_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:purple_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 9
+  magenta_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magenta_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 9
+  pink_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pink_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 9
+  red_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 9
+  brown_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 9
+  orange_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:orange_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 9
+  yellow_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:yellow_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 9
+  lime_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:lime_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 9
+  green_glazed_terracotta:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:green_glazed_terracotta"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 9
+  black_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 10
+  gray_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gray_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 10
+  light_gray_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_gray_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 10
+  white_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 10
+  blue_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blue_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 10
+  cyan_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cyan_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 10
+  light_blue_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_blue_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 10
+  purple_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:purple_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 10
+  magenta_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magenta_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 10
+  pink_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pink_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 10
+  red_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 10
+  brown_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 10
+  orange_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:orange_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 10
+  yellow_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:yellow_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 10
+  lime_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:lime_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 10
+  green_bed:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:green_bed"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 10
+  black_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 11
+  gray_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gray_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 11
+  light_gray_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_gray_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 11
+  white_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 11
+  blue_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blue_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 11
+  cyan_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cyan_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 11
+  light_blue_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:light_blue_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 11
+  purple_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:purple_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 11
+  magenta_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magenta_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 11
+  pink_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pink_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 11
+  red_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 11
+  brown_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 11
+  orange_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:orange_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 11
+  yellow_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:yellow_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 11
+  lime_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:lime_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 11
+  green_shulker_box:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:green_shulker_box"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 100.0
+      BUY: 5000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 11

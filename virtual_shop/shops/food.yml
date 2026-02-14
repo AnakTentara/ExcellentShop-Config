@@ -1,0 +1,892 @@
+Settings:
+  Aliases: []
+  Name: Food
+  Description:
+  - <gray>Don't be hungry! Buy some</gray>
+  - <gray>yummy food and feed yourself.</gray>
+  - ' '
+  - <c:#ABE5A7>→ <b><u>CLICK</u></b> to browse</c>
+  Icon:
+    Material: minecraft:player_head
+    Display_Name: <c:#ABE5A7><b>FOOD</b></c>
+    Lore: []
+    SkinURL: ca9c8753780ebc39c351da8efd91bce90bd8cca7b511f93e78df75f6615c79a6
+  Permission_Required: false
+  Buying: true
+  Selling: true
+  Pages: 2
+  MainMenu:
+    Slot: '13'
+  Layout:
+    Paginated: false
+Items:
+  apple:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:apple"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 0.1
+      BUY: 2.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 3
+      Page: 1
+  golden_apple:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:golden_apple"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 1.0
+      BUY: 25.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 4
+      Page: 1
+  enchanted_golden_apple:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:enchanted_golden_apple"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 15.0
+      BUY: 1500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 5
+      Page: 1
+  bread:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:bread"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 25.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 1
+  mushroom_stew:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:mushroom_stew"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 4.0
+      BUY: 20.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 1
+  rabbit_stew:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:rabbit_stew"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 3.0
+      BUY: 40.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 1
+  beetroot_soup:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:beetroot_soup"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 4.0
+      BUY: 20.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 1
+  pumpkin_pie:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pumpkin_pie"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 20.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  cooked_chicken:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cooked_chicken"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 150.0
+      BUY: 1500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 1
+  baked_potato:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:baked_potato"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 150.0
+      BUY: 1500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 1
+  cooked_cod:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cooked_cod"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 150.0
+      BUY: 1500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 1
+  cooked_salmon:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cooked_salmon"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 5.0
+      BUY: 25.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 1
+  cooked_rabbit:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cooked_rabbit"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 3.0
+      BUY: 20.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 1
+  cooked_porkchop:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cooked_porkchop"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 150.0
+      BUY: 1500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 1
+  cooked_beef:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cooked_beef"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 150.0
+      BUY: 1500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 1
+  cooked_mutton:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cooked_mutton"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 150.0
+      BUY: 1500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 28
+      Page: 1
+  cookie:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cookie"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 150.0
+      BUY: 1500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 1
+  cake:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cake"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 250.0
+      BUY: 2500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 1
+  sweet_berries:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:sweet_berries"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 1
+  glow_berries:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:glow_berries"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 1
+  dried_kelp:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:dried_kelp"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 34
+      Page: 1
+  cod:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cod"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 2
+  tropical_fish:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:tropical_fish"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 2
+  salmon:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:salmon"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 2
+  rabbit:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:rabbit"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 2
+  porkchop:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:porkchop"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 2
+  mutton:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:mutton"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 2
+  pufferfish:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pufferfish"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 200.0
+      BUY: 2000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 2
+  chicken:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:chicken"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 2
+  beef:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:beef"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 2

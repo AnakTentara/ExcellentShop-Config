@@ -1,0 +1,115 @@
+General:
+  # Controls whether players must have 'excellentshop.currency.[name]' permission to use specific currency for their shops and listings.
+  # [*] Useful only for ChestShop and Auction modules.
+  # [*] Currencies set as default are always allowed to use.
+  Currency_Need_Permission: false
+  # Sets how often (in seconds) plugin will check shops for possible 'updates', such as:
+  # - Rotation time for Rotating Shops.
+  # - Available discounts for Static Shops.
+  # - Update time for Float prices of both, Virtual and Static Shops.
+  # Do not touch unless you know what and why you're doing.
+  # [Default is 60 seconds]
+  Shop_Update_Interval: 60
+  # Sets wheter players can purchase items from shop with full inventory.
+  Buy_With_Full_Inventory: false
+  # Sets whether or not Shop GUI should be closed when you sold/bought items.
+  Close_GUI_After_Trade: false
+GUI:
+  # [Outdated. There is dedicated PlaceholderAPI setting in GUI files]
+  Use_PlaceholderAPI: false
+  # Sets actions for specified clicks on products in shop GUIs.
+  # Allowed click types: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/inventory/ClickType.html
+  # Allowed values: BUY_SELECTION, SELL_SELECTION, SELL_ALL, BUY_SINGLE, SELL_SINGLE, PURCHASE_OPTION, UNDEFINED
+  Click_Types:
+    SHIFT_RIGHT: SELL_SINGLE
+    RIGHT: SELL_SELECTION
+    SWAP_OFFHAND: SELL_ALL
+    SHIFT_LEFT: BUY_SINGLE
+    LEFT: BUY_SELECTION
+Data:
+  # Sets how often (in seconds) modified product & shop datas will be saved to the database.
+  # Data including:
+  # - Product's price data (float, dynamic).
+  # - Product's stock data (global, player).
+  # - Shop's rotation data.
+  # [*] Data is also saved on server reboot and plugin reload.
+  # [*] You can disable it if you're on SQLite or don't care about syncing across multiple servers.
+  SaveInterval: 5
+  PriceTable: price_data
+  StocksTable: stocks
+  RotationsTable: rotations
+Module:
+  auction:
+    # Controls whether module is enabled.
+    Enabled: true
+    # Creates dedicated module commands with provided aliases.
+    # [*] Server reboot is required to properly apply the changes.
+    Command_Aliases: auction,auc,ah
+    # Sets module prefix for messages.
+    Prefix: Auction
+    Currency:
+      # Sets default currency for the module.
+      # List of available currencies: https://nightexpressdev.com/nightcore/integrations/currencies/
+      Default: vault
+      # Sets currencies enabled (allowed) for the module.
+      # Use '*' to enable all possible currencies.
+      # List of available currencies: https://nightexpressdev.com/nightcore/integrations/currencies/
+      # [*] Default currency is always enabled (allowed).
+      Enabled:
+      - '*'
+    ItemProviders:
+      # Disables specific custom item providers for the module.
+      # Use '*' to disable all providers.
+      # List of available currencies: https://nightexpressdev.com/nightcore/integrations/items/
+      # [*] Custom items of disabled providers will be stored as plain NBT data.
+      Disabled:
+      - '*'
+  chest_shop:
+    # Controls whether module is enabled.
+    Enabled: true
+    # Creates dedicated module commands with provided aliases.
+    # [*] Server reboot is required to properly apply the changes.
+    Command_Aliases: chestshop,cshop,playershop,pshop
+    # Sets module prefix for messages.
+    Prefix: ChestShop
+    Currency:
+      # Sets default currency for the module.
+      # List of available currencies: https://nightexpressdev.com/nightcore/integrations/currencies/
+      Default: vault
+      # Sets currencies enabled (allowed) for the module.
+      # Use '*' to enable all possible currencies.
+      # List of available currencies: https://nightexpressdev.com/nightcore/integrations/currencies/
+      # [*] Default currency is always enabled (allowed).
+      Enabled:
+      - '*'
+    ItemProviders:
+      # Disables specific custom item providers for the module.
+      # Use '*' to disable all providers.
+      # List of available currencies: https://nightexpressdev.com/nightcore/integrations/items/
+      # [*] Custom items of disabled providers will be stored as plain NBT data.
+      Disabled:
+      - '*'
+  virtual_shop:
+    # Controls whether module is enabled.
+    Enabled: true
+    # Creates dedicated module commands with provided aliases.
+    # [*] Server reboot is required to properly apply the changes.
+    Command_Aliases: virtualshop,vshop
+    # Sets module prefix for messages.
+    Prefix: Shop
+    Currency:
+      # Sets default currency for the module.
+      # List of available currencies: https://nightexpressdev.com/nightcore/integrations/currencies/
+      Default: vault
+      # Sets currencies enabled (allowed) for the module.
+      # Use '*' to enable all possible currencies.
+      # List of available currencies: https://nightexpressdev.com/nightcore/integrations/currencies/
+      # [*] Default currency is always enabled (allowed).
+      Enabled:
+      - '*'
+    ItemProviders:
+      # Disables specific custom item providers for the module.
+      # Use '*' to disable all providers.
+      # List of available currencies: https://nightexpressdev.com/nightcore/integrations/items/
+      # [*] Custom items of disabled providers will be stored as plain NBT data.
+      Disabled: []

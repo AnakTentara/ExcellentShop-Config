@@ -1,0 +1,230 @@
+# ==================== [SECTION] SETTINGS ====================
+# > [MenuType] : String | Represents the menu type. Allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/MenuType.html
+# > [Title] : String | Sets menu title.
+# > [Auto_Refresh] : Integer | Defines menu refresh rate in seconds. Set 0 to disable.
+# > [PlaceholderAPI -> Enabled] : Boolean | When enabled, applies PlaceholderAPI placeholders for all items in the menu per player.
+#  
+# ==================== [SECTION] CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# > [Item] : Section | Item to display.
+#     [*] Navigate to https://nightexpressdev.com/nightcore/configuration/item-formation/ for a list of available options.
+# > [Priority] : Integer | Item priority. Higher values will override other item(s) in the same slot(s).
+# > [Slots] : Int Array | Item slots, starts from 0. Split with commas.
+#     Slots: '0,4,9,10'
+# > [Type] : String | Defines item click action.
+#     [*] Available types: ['close', 'user_skin', 'shop_change_name', 'shop_change_products', 'list_shops', 'list_owner_shops', 'shop_bank', 'shop_display', 'shop_rent_settings', 'shop_rent_extend', 'set_admin_shop', 'set_player_shop', 'shop_delete', 'rent_cancel', 'shop_buying', 'shop_selling', 'shop_change_type', 'shop_storage']
+# > [Click_Commands] : Section | Executes commands on click with PlaceholderAPI support.
+#     [*] Works only if [Type] is not set (null).
+#     [*] Available click types: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
+#     [*] Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: warp shop
+# ==================================================
+Settings:
+  MenuType: minecraft:generic_9x6
+  Title: <black>%shop_name%</black>
+  Auto_Refresh: -1
+  PlaceholderAPI:
+    Enabled: false
+Content:
+  shop_change_name:
+    Priority: 10
+    Item:
+      Material: minecraft:name_tag
+      Display_Name: <lyellow><b>Shop Name</b></lyellow>
+      Lore:
+      - '<lyellow>➥ <gray>Current: </gray>%shop_name%</lyellow>'
+      - ''
+      - <gray>The name the players see</gray>
+      - <gray>above the shop and in GUI.</gray>
+      - ''
+      - <lyellow>→ <u>Click to change</u></lyellow>
+      Hide_Components: true
+    Slots: '10'
+    Type: shop_change_name
+  shop_change_products:
+    Priority: 10
+    Item:
+      Material: minecraft:item_frame
+      Display_Name: <lyellow><b>Products</b></lyellow>
+      Lore:
+      - <gray><lyellow>➥ </lyellow>You have <lyellow>%shop_products%</lyellow>/<lyellow>%max_products%</lyellow> products.</gray>
+      - ''
+      - <gray>Edit prices, add items and</gray>
+      - <gray>restock them here.</gray>
+      - ''
+      - <lyellow>→ <u>Click to open</u></lyellow>
+      Hide_Components: true
+    Slots: '13'
+    Type: shop_change_products
+  list_shops:
+    Priority: 10
+    Item:
+      Material: minecraft:chest
+      Display_Name: <lyellow><b>My Shops</b></lyellow>
+      Lore:
+      - <gray><lyellow>➥ </lyellow>You own <lyellow>%shops_amount%</lyellow>/<lyellow>%max_shops%</lyellow> shops.</gray>
+      - ''
+      - <gray>View all shops you rented/created.</gray>
+      - ''
+      - <lyellow>→ <u>Click to open</u></lyellow>
+      Hide_Components: true
+    Slots: '16'
+    Type: list_shops
+  list_owner_shops:
+    Priority: 10
+    Item:
+      Material: minecraft:chest
+      Display_Name: <lyellow><b>%shop_owner%'s Shops</b></lyellow>
+      Lore:
+      - <gray>View all shops created</gray>
+      - <gray>by <lyellow>%shop_owner%</lyellow>.</gray>
+      - ''
+      - <lyellow>→ <u>Click to open</u></lyellow>
+      Hide_Components: true
+    Slots: '16'
+    Type: list_owner_shops
+  shop_bank:
+    Priority: 10
+    Item:
+      Material: minecraft:emerald
+      Display_Name: <lgreen><b>Bank</b></lgreen>
+      Lore:
+      - '<gray><lgreen>➥ </lgreen>Balance: <lgreen>%shop_bank_balance%</lgreen></gray>'
+      - ''
+      - <gray>Deposit funds to bank to</gray>
+      - <gray><lred>purchase items</lred> from players.</gray>
+      - ''
+      - <gray>Withdraw funds from bank gained</gray>
+      - <gray>from <lgreen>items sold</lgreen> to players.</gray>
+      - ''
+      - <lgreen>→ <u>Click to open</u></lgreen>
+      Hide_Components: true
+    Slots: '28'
+    Type: shop_bank
+  shop_display:
+    Priority: 10
+    Item:
+      Material: minecraft:beacon
+      Display_Name: <lcyan><b>Shop Display</b></lcyan>
+      Lore:
+      - '<lcyan>➥ <gray>Hologram: </gray>%shop_hologram_enabled%</lcyan>'
+      - '<lcyan>➥ <gray>Showcase: </gray>%shop_showcase_enabled%</lcyan>'
+      - ''
+      - <gray>Toggle shop hologram and</gray>
+      - <gray>customize showcase color.</gray>
+      - ''
+      - <lcyan>→ <u>Click to open</u></lcyan>
+      Hide_Components: true
+    Slots: '31'
+    Type: shop_display
+  shop_rent_settings:
+    Priority: 10
+    Item:
+      Material: minecraft:jungle_sign
+      Display_Name: <lorange><b>Rent Settings</b></lorange>
+      Lore:
+      - '<lorange>➥ <gray>Renter: </gray>%shop_rented_by%</lorange>'
+      - '<lorange>➥ <gray>Expires in: </gray>%shop_rent_expires_in%</lorange>'
+      - ''
+      - <gray>Make your shop rentable by other</gray>
+      - <gray>players, set rent price and duration.</gray>
+      - ''
+      - <lorange>→ <u>Click to open</u></lorange>
+      Hide_Components: true
+    Slots: '34'
+    Type: shop_rent_settings
+  shop_rent_extend:
+    Priority: 15
+    Item:
+      Material: minecraft:gold_nugget
+      Display_Name: <yellow><b>Extend Rent</b></yellow>
+      Lore:
+      - '<yellow>➥ <gray>Expires in: </gray>%shop_rent_expires_in%</yellow>'
+      - '<yellow>➥ <gray>Period: </gray>%shop_rent_duration%</yellow>'
+      - '<yellow>➥ <gray>Price: </gray>%shop_rent_price%</yellow>'
+      - ''
+      - <gray>Extend shop rent to continue</gray>
+      - <gray>your business here.</gray>
+      - ''
+      - <yellow>→ <u>Click to extend</u></yellow>
+      Hide_Components: true
+    Slots: '34'
+    Type: shop_rent_extend
+  set_admin_shop:
+    Priority: 10
+    Item:
+      Material: minecraft:campfire
+      Display_Name: <lyellow><b>Player Shop</b></lyellow>
+      Lore:
+      - <gray><lyellow>✔ </lyellow>This is <lyellow>player shop</lyellow>.</gray>
+      - ''
+      - <gray>Player shops have limited funds</gray>
+      - <gray>and resources, and have to be</gray>
+      - <gray>managed by player(s).</gray>
+      - ''
+      - <lyellow>→ <u>Click to make admin shop</u></lyellow>
+      Hide_Components: true
+    Slots: '45'
+    Type: set_admin_shop
+  set_player_shop:
+    Priority: 10
+    Item:
+      Material: minecraft:soul_campfire
+      Display_Name: <cyan><b>Admin Shop</b></cyan>
+      Lore:
+      - <gray><cyan>✔ </cyan>This is <cyan>admin shop</cyan>.</gray>
+      - ''
+      - <gray>Admin shops have unlimited funds</gray>
+      - <gray>and resources, and can function</gray>
+      - <gray>on its own.</gray>
+      - ''
+      - <cyan>→ <u>Click to make player shop</u></cyan>
+      Hide_Components: true
+    Slots: '45'
+    Type: set_player_shop
+  shop_delete:
+    Priority: 10
+    Item:
+      Material: minecraft:barrier
+      Display_Name: <red><b>Remove Shop</b></red>
+      Lore:
+      - <gray>Permanently removes the shop.</gray>
+      - ''
+      - <red>→ <u>Click to remove</u></red>
+      Hide_Components: true
+    Slots: '53'
+    Type: shop_delete
+  rent_cancel:
+    Priority: 15
+    Item:
+      Material: minecraft:barrier
+      Display_Name: <red><b>Cancel Rent</b></red>
+      Lore:
+      - '<red>➥ <gray>Expires in: </gray>%shop_rent_expires_in%</red>'
+      - ''
+      - <gray>Cancel your rent of this shop.</gray>
+      - ''
+      - <red>→ <u>Click to cancel rent</u></red>
+      Hide_Components: true
+    Slots: '53'
+    Type: rent_cancel
+  close:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_door
+      Display_Name: <red><b>Close</b></red>
+      Lore: []
+    Slots: '49'
+    Type: close
+  black_stained_glass_pane:
+    Priority: 0
+    Item:
+      Material: minecraft:black_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 45,46,47,48,49,50,51,52,53
+    Type: 'null'

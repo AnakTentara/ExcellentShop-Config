@@ -1,0 +1,235 @@
+# ==================== [SECTION] SETTINGS ====================
+# > [MenuType] : String | Represents the menu type. Allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/MenuType.html
+# > [Title] : String | Sets menu title.
+# > [Auto_Refresh] : Integer | Defines menu refresh rate in seconds. Set 0 to disable.
+# > [PlaceholderAPI -> Enabled] : Boolean | When enabled, applies PlaceholderAPI placeholders for all items in the menu per player.
+#  
+# ==================== [SECTION] CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# > [Item] : Section | Item to display.
+#     [*] Navigate to https://nightexpressdev.com/nightcore/configuration/item-formation/ for a list of available options.
+# > [Priority] : Integer | Item priority. Higher values will override other item(s) in the same slot(s).
+# > [Slots] : Int Array | Item slots, starts from 0. Split with commas.
+#     Slots: '0,4,9,10'
+# > [Type] : String | Defines item click action.
+#     [*] Available types: ['close', 'user_skin', 'page_next', 'page_previous', 'return', 'price_advanced', 'set_currency', 'add_buy_price', 'change_buy_price', 'disable_buying', 'add_sell_price', 'change_sell_price', 'disable_selling', 'restock_custom', 'restock_all', 'withdraw_custom', 'withdraw_all', 'remove_item']
+# > [Click_Commands] : Section | Executes commands on click with PlaceholderAPI support.
+#     [*] Works only if [Type] is not set (null).
+#     [*] Available click types: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
+#     [*] Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: warp shop
+# ==================================================
+Settings:
+  MenuType: minecraft:generic_9x6
+  Title: <black>Shop Products</black>
+  Auto_Refresh: -1
+  PlaceholderAPI:
+    Enabled: false
+Product:
+  ItemSlots: 9,18,27
+  HighlightSlots: 10,19,28
+  Icon:
+    FreeSlot:
+      Material: minecraft:lime_dye
+      Display_Name: <green><b>Free Slot</b></green>
+      Lore:
+      - <gray>Click an item in <green><u>your inventory</u></green></gray>
+      - <gray>to add it to the shop.</gray>
+      Hide_Components: true
+    LockedSlot:
+      Material: minecraft:pink_dye
+      Display_Name: <red><b>Locked Slot</b></red>
+      Lore:
+      - <gray>Upgrade your <red><u>/rank</u></red></gray>
+      - <gray>to unlock more slots.</gray>
+      Hide_Components: true
+    Highlight:
+      Material: minecraft:lime_stained_glass_pane
+      Display_Name: <green>← <b>Selected Product</b></green>
+      Lore: []
+      Hide_Components: true
+Content:
+  return:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_door
+      Display_Name: <soft_yellow><b>Back</b></soft_yellow>
+      Lore: []
+    Slots: '49'
+    Type: return
+  black_stained_glass_pane:
+    Priority: 0
+    Item:
+      Material: minecraft:black_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 1,10,19,28,37,45,46,47,48,49,50,51,52,53
+    Type: 'null'
+  gray_stained_glass_pane:
+    Priority: 0
+    Item:
+      Material: minecraft:gray_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 0,36
+    Type: 'null'
+  set_currency:
+    Priority: 10
+    Item:
+      Material: minecraft:emerald
+      Display_Name: <lgreen><b>Currency</b></lgreen> <gray>[<white>%product_currency%</white>]</gray>
+      Lore:
+      - <gray>Currency used for sales and purchases.</gray>
+      - ' '
+      - <lgreen>→ <u>Click to change</u></lgreen>
+    Slots: '23'
+    Type: set_currency
+  add_buy_price:
+    Priority: 10
+    Item:
+      Material: minecraft:firework_star
+      Display_Name: <green><b>Buy Price</b></green> <gray>[<white>Unset</white>]</gray>
+      Lore:
+      - <gray>You haven't set the buy price.</gray>
+      - ' '
+      - <green>→ <u>Click to set</u></green>
+      Hide_Components: true
+    Slots: '12'
+    Type: add_buy_price
+  change_buy_price:
+    Priority: 10
+    Item:
+      Material: minecraft:firework_star
+      Display_Name: <green><b>Buy Price</b></green> <gray>[<white>%product_price_buy_formatted%</white>]</gray>
+      Lore:
+      - <gray>Players will pay you <green>%product_price_buy_formatted%</green> for</gray>
+      - <gray>each <green>x%product_unit_amount% %product_preview_name%</green> purchased.</gray>
+      - ' '
+      - <green>→ <u>Click to change</u></green>
+      Hide_Components: true
+      Color: 0,255,0
+    Slots: '12'
+    Type: change_buy_price
+  disable_buying:
+    Priority: 10
+    Item:
+      Material: minecraft:repeater
+      Display_Name: <lyellow><b>Disable Buying</b></lyellow>
+      Lore:
+      - <gray>Makes this item unbuyable for players.</gray>
+      - ' '
+      - <lyellow>→ <u>Click to toggle</u></lyellow>
+    Slots: '13'
+    Type: disable_buying
+  add_sell_price:
+    Priority: 10
+    Item:
+      Material: minecraft:firework_star
+      Display_Name: <red><b>Sell Price</b></red> <gray>[<white>Unset</white>]</gray>
+      Lore:
+      - <gray>You haven't set the sell price.</gray>
+      - ' '
+      - <red>→ <u>Click to set</u></red>
+      Hide_Components: true
+    Slots: '15'
+    Type: add_sell_price
+  change_sell_price:
+    Priority: 10
+    Item:
+      Material: minecraft:firework_star
+      Display_Name: <red><b>Sell Price</b></red> <gray>[<white>%product_price_sell_formatted%</white>]</gray>
+      Lore:
+      - <gray>You'll pay players <red>%product_price_sell_formatted%</red> for</gray>
+      - <gray>each <red>x%product_unit_amount% %product_preview_name%</red> sold.</gray>
+      - ' '
+      - <red>→ <u>Click to change</u></red>
+      Hide_Components: true
+      Color: 255,0,0
+    Slots: '15'
+    Type: change_sell_price
+  disable_selling:
+    Priority: 10
+    Item:
+      Material: minecraft:repeater
+      Display_Name: <lyellow><b>Disable Selling</b></lyellow>
+      Lore:
+      - <gray>Makes this item unsellable for players.</gray>
+      - ' '
+      - <lyellow>→ <u>Click to toggle</u></lyellow>
+    Slots: '16'
+    Type: disable_selling
+  restock_custom:
+    Priority: 10
+    Item:
+      Material: minecraft:light_blue_bundle
+      Display_Name: <lblue><b>Restock</b></lblue> <gray>[<white>Custom Amount</white>]</gray>
+      Lore:
+      - '<gray><lblue>✔ </lblue>Stock: <lblue>%product_amount%</lblue>/<lblue>%product_capacity%</lblue></gray>'
+      - ''
+      - <gray>Restock the product with <lblue>desired</lblue></gray>
+      - <gray>amount from your inventory.</gray>
+      - ''
+      - <lblue>→ <u>Click to restock</u></lblue>
+      Hide_Components: true
+    Slots: '30'
+    Type: restock_custom
+  restock_all:
+    Priority: 10
+    Item:
+      Material: minecraft:water_bucket
+      Display_Name: <lblue><b>Restock</b></lblue> <gray>[<white>All</white>]</gray>
+      Lore:
+      - '<gray><lblue>✔ </lblue>Stock: <lblue>%product_amount%</lblue>/<lblue>%product_capacity%</lblue></gray>'
+      - ''
+      - <gray>Restock the product with <lblue>all</lblue></gray>
+      - <gray>possible amount from your inventory.</gray>
+      - ''
+      - <lblue>→ <u>Click to restock</u></lblue>
+      Hide_Components: true
+    Slots: '31'
+    Type: restock_all
+  withdraw_custom:
+    Priority: 10
+    Item:
+      Material: minecraft:orange_bundle
+      Display_Name: <lorange><b>Withdraw</b></lorange> <gray>[<white>Custom Amount</white>]</gray>
+      Lore:
+      - '<gray><lorange>✔ </lorange>Stock: <lorange>%product_amount%</lorange>/<lorange>%product_space%</lorange></gray>'
+      - ''
+      - <gray>Withdraw <lorange>desired amount</lorange> of the</gray>
+      - <gray>product straight to your inventory.</gray>
+      - ''
+      - <lorange>→ <u>Click to withdraw</u></lorange>
+      Hide_Components: true
+    Slots: '33'
+    Type: withdraw_custom
+  withdraw_all:
+    Priority: 10
+    Item:
+      Material: minecraft:lava_bucket
+      Display_Name: <lorange><b>Withdraw</b></lorange> <gray>[<white>All</white>]</gray>
+      Lore:
+      - '<gray><lorange>✔ </lorange>Stock: <lorange>%product_amount%</lorange>/<lorange>%product_space%</lorange></gray>'
+      - ''
+      - <gray>Withdraw <lorange>all possible</lorange> amount</gray>
+      - <gray>of the product straight to your inventory.</gray>
+      - ''
+      - <lorange>→ <u>Click to withdraw</u></lorange>
+      Hide_Components: true
+    Slots: '34'
+    Type: withdraw_all
+  remove_item:
+    Priority: 10
+    Item:
+      Material: minecraft:barrier
+      Display_Name: <lred><b>Remove Product</b></lred>
+      Lore:
+      - <gray>Removes this product from the shop.</gray>
+      - ' '
+      - <lred>→ <u>Click to remove</u></lred>
+    Slots: '53'
+    Type: remove_item

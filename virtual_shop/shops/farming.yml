@@ -1,0 +1,966 @@
+Settings:
+  Aliases: []
+  Name: Farming
+  Description:
+  - <gray>Make your own garden and</gray>
+  - <gray>start earning your money.</gray>
+  - ' '
+  - <c:#FFD05A>→ <b><u>CLICK</u></b> to browse</c>
+  Icon:
+    Material: minecraft:player_head
+    Display_Name: <c:#FFD05A><b>FARMING</b></c>
+    Lore: []
+    SkinURL: 26459be09998e50abd2ccf4cd383e6b38ab5bc905facb66dce0e14e038ba1968
+  Permission_Required: false
+  Buying: true
+  Selling: true
+  Pages: 2
+  MainMenu:
+    Slot: '30'
+  Layout:
+    Paginated: false
+Items:
+  wheat_seeds:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:wheat_seeds"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 1
+  pumpkin_seeds:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pumpkin_seeds"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 1
+  melon_seeds:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:melon_seeds"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 1
+    Price:
+      Type: FLAT
+      SELL: 1.0
+      BUY: 20.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  beetroot_seeds:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:beetroot_seeds"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 10.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  cocoa_beans:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cocoa_beans"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 1
+  nether_wart:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:nether_wart"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 300.0
+      BUY: 3000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 1
+  sugar_cane:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:sugar_cane"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 1
+  wheat:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:wheat"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 1
+  pumpkin:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:pumpkin"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 1
+  melon:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:melon"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 1
+  cactus:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:cactus"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 200.0
+      BUY: 2000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 1
+  oak_sapling:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:oak_sapling"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 1
+  spruce_sapling:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:spruce_sapling"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 1
+  birch_sapling:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:birch_sapling"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 1
+  jungle_sapling:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:jungle_sapling"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 1
+  acacia_sapling:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:acacia_sapling"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 1
+  dark_oak_sapling:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:dark_oak_sapling"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 2
+  mangrove_propagule:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:mangrove_propagule"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 2
+  carrot:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:carrot"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 2
+  potato:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:potato"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 2
+  brown_mushroom:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:brown_mushroom"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 2
+  red_mushroom:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:red_mushroom"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 2
+  crimson_fungus:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:crimson_fungus"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 2
+  warped_fungus:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:warped_fungus"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 2
+  weeping_vines:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:weeping_vines"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 2
+  warped_roots:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:warped_roots"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 2
+  twisting_vines:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:twisting_vines"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 2
+  poppy:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:poppy"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 2
+  chorus_plant:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:chorus_plant"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 2
+  chorus_fruit:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:chorus_fruit"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 2
+  kelp:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:kelp"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 50.0
+      BUY: 1000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 2
+  shroomlight:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:shroomlight"}'
+        DataVersion: 4556
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: 200.0
+      BUY: 2000.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 2

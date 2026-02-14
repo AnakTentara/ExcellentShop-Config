@@ -1,0 +1,133 @@
+# ==================== [SECTION] SETTINGS ====================
+# > [MenuType] : String | Represents the menu type. Allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/MenuType.html
+# > [Title] : String | Sets menu title.
+# > [Auto_Refresh] : Integer | Defines menu refresh rate in seconds. Set 0 to disable.
+# > [PlaceholderAPI -> Enabled] : Boolean | When enabled, applies PlaceholderAPI placeholders for all items in the menu per player.
+#  
+# ==================== [SECTION] CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# > [Item] : Section | Item to display.
+#     [*] Navigate to https://nightexpressdev.com/nightcore/configuration/item-formation/ for a list of available options.
+# > [Priority] : Integer | Item priority. Higher values will override other item(s) in the same slot(s).
+# > [Slots] : Int Array | Item slots, starts from 0. Split with commas.
+#     Slots: '0,4,9,10'
+# > [Type] : String | Defines item click action.
+#     [*] Available types: ['close', 'user_skin', 'rent_off', 'rent_on', 'rent_duration', 'rent_price', 'rent_currency', 'rent_cancel', 'return', 'rent_enabled']
+# > [Click_Commands] : Section | Executes commands on click with PlaceholderAPI support.
+#     [*] Works only if [Type] is not set (null).
+#     [*] Available click types: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
+#     [*] Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: warp shop
+# ==================================================
+Settings:
+  MenuType: minecraft:generic_9x4
+  Title: <black>Rent Settings</black>
+  Auto_Refresh: -1
+  PlaceholderAPI:
+    Enabled: false
+Content:
+  rent_off:
+    Priority: 10
+    Item:
+      Material: minecraft:lime_dye
+      Display_Name: <green><b>Rent Enabled</b></green>
+      Lore:
+      - <gray>Other players <green>can</green> rent this shop.</gray>
+      - ''
+      - <green>→ <u>Click to disable</u></green>
+      Hide_Components: true
+    Slots: '11'
+    Type: rent_off
+  rent_on:
+    Priority: 10
+    Item:
+      Material: minecraft:gray_dye
+      Display_Name: <red><b>Rent Disabled</b></red>
+      Lore:
+      - <gray>Other players <red>can't</red> rent this shop.</gray>
+      - ''
+      - <red>→ <u>Click to enable</u></red>
+      Hide_Components: true
+    Slots: '11'
+    Type: rent_on
+  rent_duration:
+    Priority: 10
+    Item:
+      Material: minecraft:clock
+      Display_Name: <yellow><b>Duration</b></yellow>
+      Lore:
+      - '<yellow>➥ <gray>Current: </gray>%rent_duration%</yellow>'
+      - ''
+      - <gray>Initial rent duration when</gray>
+      - <gray>player rents a shop.</gray>
+      - ''
+      - <yellow>→ <u>Click to change</u></yellow>
+      Hide_Components: true
+    Slots: '13'
+    Type: rent_duration
+  rent_price:
+    Priority: 10
+    Item:
+      Material: minecraft:gold_nugget
+      Display_Name: <lyellow><b>Price</b></lyellow>
+      Lore:
+      - '<lyellow>➥ <gray>Current: </gray>%rent_price%</lyellow>'
+      - ''
+      - <gray>Price for players to rent</gray>
+      - <gray>this shop.</gray>
+      - ''
+      - <lyellow>→ <u>Click to change</u></lyellow>
+      Hide_Components: true
+    Slots: '15'
+    Type: rent_price
+  rent_currency:
+    Priority: 10
+    Item:
+      Material: minecraft:emerald
+      Display_Name: <lgreen><b>Currency</b></lgreen>
+      Lore:
+      - '<lgreen>➥ <gray>Current: </gray>%rent_currency_name%</lgreen>'
+      - ''
+      - <gray>Set currency used to</gray>
+      - <gray>rent this shop.</gray>
+      - ''
+      - <lgreen>→ <u>Click to change</u></lgreen>
+      Hide_Components: true
+    Slots: '16'
+    Type: rent_currency
+  rent_cancel:
+    Priority: 10
+    Item:
+      Material: minecraft:barrier
+      Display_Name: <red><b>Cancel Rent</b></red>
+      Lore:
+      - '<red>➥ <gray>Rented by: </gray>%shop_rented_by%</red>'
+      - '<red>➥ <gray>Expires in: </gray>%shop_rent_expires_in%</red>'
+      - ''
+      - <gray>Cancel current rent and revoke</gray>
+      - <gray>renter's access to the shop.</gray>
+      - ''
+      - <red>→ <u>Click to cancel</u></red>
+      Hide_Components: true
+    Slots: '35'
+    Type: rent_cancel
+  return:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_door
+      Display_Name: <soft_yellow><b>Back</b></soft_yellow>
+      Lore: []
+    Slots: '31'
+    Type: return
+  black_stained_glass_pane:
+    Priority: 0
+    Item:
+      Material: minecraft:black_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 27,28,29,30,31,32,33,34,35
+    Type: 'null'

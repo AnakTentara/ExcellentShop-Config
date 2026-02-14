@@ -1,0 +1,3270 @@
+Settings:
+  Aliases: []
+  Name: Potions
+  Description:
+  - <gray>Be stronger by using potions</gray>
+  - <gray>and arrows with effects!</gray>
+  - ' '
+  - <c:#56FF5C>→ <b><u>CLICK</u></b> to browse</c>
+  Icon:
+    Material: minecraft:player_head
+    Display_Name: <c:#56FF5C><b>POTIONS & ARROWS</b></c>
+    Lore: []
+    SkinURL: 42f57c9eed9f90b7c33b0a447568150cb7b5ec62afddf280b4f981ffd480a766
+  Permission_Required: false
+  Buying: true
+  Selling: true
+  Pages: 4
+  MainMenu:
+    Slot: '21'
+  Layout:
+    Paginated: false
+Items:
+  potion:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_regeneration"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 1
+      Page: 1
+  potion_1:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_swiftness"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 2
+      Page: 1
+  potion_2:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_strength"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 450.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 3
+      Page: 1
+  potion_3:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:healing"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 4
+      Page: 1
+  potion_4:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:fire_resistance"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 5
+      Page: 1
+  potion_5:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:water_breathing"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 6
+      Page: 1
+  potion_6:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_leaping"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 7
+      Page: 1
+  potion_7:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 10
+      Page: 1
+  potion_8:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_swiftness"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 1
+  potion_9:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_strength"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 600.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 1
+  potion_10:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_healing"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 1
+  potion_11:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_fire_resistance"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 1
+  potion_12:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_water_breathing"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  potion_13:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_leaping"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 16
+      Page: 1
+  potion_14:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:night_vision"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 1
+  potion_15:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:invisibility"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 1
+  potion_16:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:harming"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 1
+  potion_17:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:slow_falling"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 1
+  potion_18:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_poison"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 1
+  potion_19:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:slowness"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 150.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 1
+  potion_20:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:weakness"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 150.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 1
+  potion_21:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_night_vision"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 28
+      Page: 1
+  potion_22:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_invisibility"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 1
+  potion_23:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_harming"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 1
+  potion_24:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_slow_falling"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 1
+  potion_25:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_poison"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 1
+  potion_26:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_slowness"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 1
+  potion_27:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_weakness"}},count:1,id:"minecraft:potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 34
+      Page: 1
+  splash_potion:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_regeneration"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 1
+      Page: 2
+  splash_potion_1:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_swiftness"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 2
+      Page: 2
+  splash_potion_2:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_strength"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 450.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 3
+      Page: 2
+  splash_potion_3:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:healing"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 4
+      Page: 2
+  splash_potion_4:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:fire_resistance"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 5
+      Page: 2
+  splash_potion_5:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:water_breathing"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 6
+      Page: 2
+  splash_potion_6:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_leaping"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 7
+      Page: 2
+  splash_potion_7:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 10
+      Page: 2
+  splash_potion_8:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_swiftness"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 2
+  splash_potion_9:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_strength"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 650.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 2
+  splash_potion_10:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_healing"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 2
+  splash_potion_11:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_fire_resistance"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 2
+  splash_potion_12:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_water_breathing"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 2
+  splash_potion_13:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_leaping"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 16
+      Page: 2
+  splash_potion_14:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:night_vision"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 2
+  splash_potion_15:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:invisibility"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 2
+  splash_potion_16:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:harming"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 2
+  splash_potion_17:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:slow_falling"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 2
+  splash_potion_18:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_poison"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 2
+  splash_potion_19:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:slowness"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 150.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 2
+  splash_potion_20:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:weakness"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 150.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 2
+  splash_potion_21:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_night_vision"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 28
+      Page: 2
+  splash_potion_22:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_invisibility"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 2
+  splash_potion_23:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_harming"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 2
+  splash_potion_24:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_slow_falling"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 2
+  splash_potion_25:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_poison"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 2
+  splash_potion_26:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_slowness"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 2
+  splash_potion_27:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_weakness"}},count:1,id:"minecraft:splash_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 34
+      Page: 2
+  lingering_potion:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_regeneration"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 1
+      Page: 3
+  lingering_potion_1:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_swiftness"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 2
+      Page: 3
+  lingering_potion_2:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_strength"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 3
+      Page: 3
+  lingering_potion_3:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:healing"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 4
+      Page: 3
+  lingering_potion_4:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:fire_resistance"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 5
+      Page: 3
+  lingering_potion_5:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:water_breathing"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 100.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 6
+      Page: 3
+  lingering_potion_6:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_leaping"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 7
+      Page: 3
+  lingering_potion_7:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 10
+      Page: 3
+  lingering_potion_8:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_swiftness"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 3
+  lingering_potion_9:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_strength"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 3
+  lingering_potion_10:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_healing"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 3
+  lingering_potion_11:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_fire_resistance"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 3
+  lingering_potion_12:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_water_breathing"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 150.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 3
+  lingering_potion_13:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_leaping"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 16
+      Page: 3
+  lingering_potion_14:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:night_vision"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 150.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 3
+  lingering_potion_15:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:invisibility"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 150.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 3
+  lingering_potion_16:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:harming"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 3
+  lingering_potion_17:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:slow_falling"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 3
+  lingering_potion_18:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_poison"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 150.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 3
+  lingering_potion_19:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:slowness"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 100.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 3
+  lingering_potion_20:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:weakness"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 100.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 3
+  lingering_potion_21:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_night_vision"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 28
+      Page: 3
+  lingering_potion_22:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_invisibility"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 3
+  lingering_potion_23:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_harming"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 3
+  lingering_potion_24:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_slow_falling"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 3
+  lingering_potion_25:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_poison"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 300.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 3
+  lingering_potion_26:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_slowness"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 3
+  lingering_potion_27:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_weakness"}},count:1,id:"minecraft:lingering_potion"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 34
+      Page: 3
+  tipped_arrow:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_regeneration"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 1
+      Page: 4
+  tipped_arrow_1:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_swiftness"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 2
+      Page: 4
+  tipped_arrow_2:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_strength"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 3
+      Page: 4
+  tipped_arrow_3:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:healing"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 4
+      Page: 4
+  tipped_arrow_4:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:fire_resistance"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 5
+      Page: 4
+  tipped_arrow_5:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:water_breathing"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 6
+      Page: 4
+  tipped_arrow_6:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_leaping"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 7
+      Page: 4
+  tipped_arrow_7:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 450.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 10
+      Page: 4
+  tipped_arrow_8:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_swiftness"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 600.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 4
+  tipped_arrow_9:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_strength"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 700.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 4
+  tipped_arrow_10:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_healing"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 4
+  tipped_arrow_11:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_fire_resistance"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 4
+  tipped_arrow_12:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_water_breathing"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 4
+  tipped_arrow_13:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_leaping"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 16
+      Page: 4
+  tipped_arrow_14:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:night_vision"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 4
+  tipped_arrow_15:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:invisibility"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 4
+  tipped_arrow_16:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:harming"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 4
+  tipped_arrow_17:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:slow_falling"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 4
+  tipped_arrow_18:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_poison"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 4
+  tipped_arrow_19:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:slowness"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 4
+  tipped_arrow_20:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:weakness"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 4
+  tipped_arrow_21:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_night_vision"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 28
+      Page: 4
+  tipped_arrow_22:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_invisibility"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 650.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 4
+  tipped_arrow_23:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_harming"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 700.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 4
+  tipped_arrow_24:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_slow_falling"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 4
+  tipped_arrow_25:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:strong_poison"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 500.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 4
+  tipped_arrow_26:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_slowness"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 4
+  tipped_arrow_27:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:potion_contents":{potion:"minecraft:long_weakness"}},count:1,id:"minecraft:tipped_arrow"}'
+        DataVersion: 4556
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 34
+      Page: 4

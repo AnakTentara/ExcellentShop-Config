@@ -1,0 +1,117 @@
+# ==================== [SECTION] SETTINGS ====================
+# > [MenuType] : String | Represents the menu type. Allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/MenuType.html
+# > [Title] : String | Sets menu title.
+# > [Auto_Refresh] : Integer | Defines menu refresh rate in seconds. Set 0 to disable.
+# > [PlaceholderAPI -> Enabled] : Boolean | When enabled, applies PlaceholderAPI placeholders for all items in the menu per player.
+#  
+# ==================== [SECTION] CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# > [Item] : Section | Item to display.
+#     [*] Navigate to https://nightexpressdev.com/nightcore/configuration/item-formation/ for a list of available options.
+# > [Priority] : Integer | Item priority. Higher values will override other item(s) in the same slot(s).
+# > [Slots] : Int Array | Item slots, starts from 0. Split with commas.
+#     Slots: '0,4,9,10'
+# > [Type] : String | Defines item click action.
+#     [*] Available types: ['close', 'user_skin', 'page_next', 'page_previous', 'hologram_toggle', 'showcase_toggle', 'showcase_reset', 'return']
+# > [Click_Commands] : Section | Executes commands on click with PlaceholderAPI support.
+#     [*] Works only if [Type] is not set (null).
+#     [*] Available click types: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
+#     [*] Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: warp shop
+# ==================================================
+Settings:
+  MenuType: minecraft:generic_9x6
+  Title: <black>Display Settings</black>
+  Auto_Refresh: -1
+  PlaceholderAPI:
+    Enabled: false
+Showcase:
+  Disabled:
+    Material: minecraft:gray_dye
+    Display_Name: <dgray>%type%</dgray>
+    Lore:
+    - <gray>Enable showcase display to</gray>
+    - <gray>select showcase variant.</gray>
+  Lore:
+  - <white>→ <u>Click to select</u></white>
+  Slots: 10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34
+Content:
+  hologram_toggle:
+    Priority: 10
+    Item:
+      Material: minecraft:armor_stand
+      Display_Name: <lyellow><b>Hologram</b></lyellow>
+      Lore:
+      - '<lyellow>➥ <gray>Enabled: </gray>%shop_hologram_enabled%</lyellow>'
+      - ''
+      - <gray>Adds hologram above the shop</gray>
+      - <gray>displaying shop name and prices</gray>
+      - ''
+      - <lyellow>→ <u>Click to enable</u></lyellow>
+      Hide_Components: true
+    Slots: '47'
+    Type: hologram_toggle
+  showcase_toggle:
+    Priority: 10
+    Item:
+      Material: minecraft:beacon
+      Display_Name: <lcyan><b>Showcase</b></lcyan>
+      Lore:
+      - '<lcyan>➥ <gray>Enabled: </gray>%shop_showcase_enabled%</lcyan>'
+      - ''
+      - <gray>Adds showcase for shop items</gray>
+      - <gray>displayed on top of the shop.</gray>
+      - ''
+      - <lcyan>→ <u>Click to enable</u></lcyan>
+      Hide_Components: true
+    Slots: '51'
+    Type: showcase_toggle
+  showcase_reset:
+    Priority: 10
+    Item:
+      Material: minecraft:barrier
+      Display_Name: <red><b>Reset Showcase</b></red>
+      Lore:
+      - <gray>Reset showcase to its default</gray>
+      - <gray>model based on shop type.</gray>
+      - ''
+      - <red>→ <u>Click to reset</u></red>
+      Hide_Components: true
+    Slots: '53'
+    Type: showcase_reset
+  black_stained_glass_pane:
+    Priority: 0
+    Item:
+      Material: minecraft:black_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 45,46,47,48,49,50,51,52,53
+    Type: 'null'
+  return:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_door
+      Display_Name: <soft_yellow><b>Back</b></soft_yellow>
+      Lore: []
+    Slots: '49'
+    Type: return
+  page_next:
+    Priority: 0
+    Item:
+      Material: minecraft:arrow
+      Display_Name: <white><b><u>Next Page</u> →</b></white>
+      Lore: []
+    Slots: '26'
+    Type: page_next
+  page_previous:
+    Priority: 0
+    Item:
+      Material: minecraft:arrow
+      Display_Name: <white><b>← <u>Previous Page</u></b></white>
+      Lore: []
+    Slots: '18'
+    Type: page_previous

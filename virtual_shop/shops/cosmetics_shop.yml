@@ -1,0 +1,195 @@
+Settings:
+  Aliases: []
+  Name: Cosmetics Shop
+  Description:
+  - <gray>Kosmetik yang bisa dibeli</gray>
+  - <gray>dengan Rupiah (Vault)</gray>
+  - ' '
+  - <c:#FFAA00>→ <b><u>CLICK</u></b> to browse</c>
+  Icon:
+    Material: minecraft:leather_helmet
+    Display_Name: <gradient:#FFAA00:#FF5555><b>COSMETICS</b></gradient>
+    Lore: []
+  Permission_Required: false
+  Buying: true
+  Selling: false
+  Pages: 1
+  MainMenu:
+    Slot: '49'
+Layout:
+  Paginated: false
+
+Items:
+  template_rupiah_1:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:wheat"}'
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 50000.0
+    Shop_View:
+      Slot: 10
+      Page: 1
+      Display_Name: "<#FFFF55><b>Topi Jerami</b></#FFFF55>"
+      Lore:
+      - "<gray>Kosmetik klasik untuk petualang</gray>"
+      - ""
+      - "<gray>Harga: <#FFAA00>Rp 50.000</#FFAA00>"
+
+  wooden_shield:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:shield"}'
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 75000.0
+    Shop_View:
+      Slot: 11
+      Page: 1
+      Display_Name: "<#AA5500><b>Wooden Shield Skin</b></#AA5500>"
+      Lore:
+      - "<gray>Tampil beda saat bertahan</gray>"
+      - ""
+      - "<gray>Harga: <#FFAA00>Rp 75.000</#FFAA00>"
+
+  simple_cloak:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:white_banner"}'
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 150000.0
+    Shop_View:
+      Slot: 12
+      Page: 1
+      Display_Name: "&f<b>Simple White Cloak</b>"
+      Lore:
+      - "<gray>Jubah putih yang elegan</gray>"
+      - ""
+      - "<gray>Harga: <#FFAA00>Rp 150.000</#FFAA00>"
+
+  puppy_pet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:bone"}'
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 100000.0
+    Shop_View:
+      Slot: 19
+      Page: 1
+      Display_Name: "&b<b>Puppy Pet</b>"
+      Lore:
+      - "<gray>Teman setia di perjalanan</gray>"
+      - ""
+      - "<gray>Harga: <#FFAA00>Rp 100.000</#FFAA00>"
+
+  heart_particles:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:poppy"}'
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 25000.0
+    Shop_View:
+      Slot: 20
+      Page: 1
+      Display_Name: "&c<b>Heart Particles</b>"
+      Lore:
+      - "<gray>Tebarkan cinta di sekitarmu</gray>"
+      - ""
+      - "<gray>Harga: <#FFAA00>Rp 25.000</#FFAA00>"
+
+  soldier_tag:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:name_tag"}'
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 200000.0
+    Shop_View:
+      Slot: 21
+      Page: 1
+      Display_Name: "&7[<b>SOLDIER</b>] &fTag"
+      Lore:
+      - "<gray>Tunjukkan pangkatmu di chat</gray>"
+      - ""
+      - "<gray>Harga: <#FFAA00>Rp 200.000</#FFAA00>"
+
+  ancient_dungeon_key:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:tripwire_hook"}'
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 500000.0
+    Shop_View:
+      Slot: 28
+      Page: 1
+      Display_Name: "<#FF55FF><b>Ancient Dungeon Key</b></#FF55FF>"
+      Lore:
+      - "<gray>Kunci untuk membuka Boss Room</gray>"
+      - "<gray>di NaturalDungeon.</gray>"
+      - ""
+      - "<gray>Harga: <#FFAA00>Rp 500.000</#FFAA00>"
+
+  global_xp_booster:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:experience_bottle"}'
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 1000000.0
+    Shop_View:
+      Slot: 29
+      Page: 1
+      Display_Name: "<#55FF55><b>Global XP Booster (30m)</b></#55FF55>"
+      Lore:
+      - "<gray>Aktifkan 2x XP untuk semua</gray>"
+      - "<gray>pemain selama 30 menit.</gray>"
+      - ""
+      - "<gray>Harga: <#FFAA00>Rp 1.000.000</#FFAA00>"
+
+  repair_crystal:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:amethyst_shard"}'
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 250000.0
+    Shop_View:
+      Slot: 30
+      Page: 1
+      Display_Name: "<#55FFFF><b>Elite Repair Crystal</b></#55FFFF>"
+      Lore:
+      - "<gray>Perbaiki item favoritmu</gray>"
+      - "<gray>secara instan ke kondisi 100%.</gray>"
+      - ""
+      - "<gray>Harga: <#FFAA00>Rp 250.000</#FFAA00>"

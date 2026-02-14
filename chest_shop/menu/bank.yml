@@ -1,0 +1,141 @@
+# ==================== [SECTION] SETTINGS ====================
+# > [MenuType] : String | Represents the menu type. Allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/MenuType.html
+# > [Title] : String | Sets menu title.
+# > [Auto_Refresh] : Integer | Defines menu refresh rate in seconds. Set 0 to disable.
+# > [PlaceholderAPI -> Enabled] : Boolean | When enabled, applies PlaceholderAPI placeholders for all items in the menu per player.
+#  
+# ==================== [SECTION] CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# > [Item] : Section | Item to display.
+#     [*] Navigate to https://nightexpressdev.com/nightcore/configuration/item-formation/ for a list of available options.
+# > [Priority] : Integer | Item priority. Higher values will override other item(s) in the same slot(s).
+# > [Slots] : Int Array | Item slots, starts from 0. Split with commas.
+#     Slots: '0,4,9,10'
+# > [Type] : String | Defines item click action.
+#     [*] Available types: ['close', 'user_skin', 'page_next', 'page_previous', 'return', 'deposit_custom', 'deposit_all', 'withdraw_custom', 'withdraw_all']
+# > [Click_Commands] : Section | Executes commands on click with PlaceholderAPI support.
+#     [*] Works only if [Type] is not set (null).
+#     [*] Available click types: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
+#     [*] Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: warp shop
+# ==================================================
+Settings:
+  MenuType: minecraft:generic_9x6
+  Title: <black>Shop Bank</black>
+  Auto_Refresh: -1
+  PlaceholderAPI:
+    Enabled: false
+Currency:
+  ItemSlots: 0,9,18,27,36
+  HighlightSlots: 1,10,19,28,37
+  Icon:
+    Highlight:
+      Material: minecraft:lime_stained_glass_pane
+      Display_Name: <green>← <b>Selected Currency</b></green>
+      Lore: []
+      Hide_Components: true
+  Name: '%currency_name%'
+  Lore:
+  - '<lyellow>➥ <gray>In Bank: </gray>%bank_balance%</lyellow>'
+  - '<lyellow>➥ <gray>On Hand: </gray>%player_balance%</lyellow>'
+Content:
+  close:
+    Priority: 1
+    Item:
+      Material: minecraft:iron_door
+      Display_Name: <red><b>Close</b></red>
+      Lore: []
+    Slots: '49'
+    Type: close
+  return:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_door
+      Display_Name: <soft_yellow><b>Back</b></soft_yellow>
+      Lore: []
+    Slots: '49'
+    Type: return
+  black_stained_glass_pane:
+    Priority: 0
+    Item:
+      Material: minecraft:black_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 1,10,19,28,37,45,46,47,48,49,50,51,52,53
+    Type: 'null'
+  gray_stained_glass_pane:
+    Priority: 0
+    Item:
+      Material: minecraft:gray_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 0,9,18,27,36
+    Type: 'null'
+  deposit_custom:
+    Priority: 10
+    Item:
+      Material: minecraft:light_blue_bundle
+      Display_Name: <lblue><b>Deposit</b></lblue> <gray>[<white>Custom Amount</white>]</gray>
+      Lore:
+      - '<lblue>➥ <gray>In Bank: </gray>%bank_balance%</lblue>'
+      - '<lblue>➥ <gray>On Hand: </gray>%player_balance%</lblue>'
+      - ''
+      - <gray>Deposit <lblue>desired amount</lblue></gray>
+      - <gray>to the shop bank.</gray>
+      - ''
+      - <lblue>→ <u>Click to deposit</u></lblue>
+      Hide_Components: true
+    Slots: '13'
+    Type: deposit_custom
+  deposit_all:
+    Priority: 10
+    Item:
+      Material: minecraft:water_bucket
+      Display_Name: <lblue><b>Deposit</b></lblue> <gray>[<white>All</white>]</gray>
+      Lore:
+      - '<lblue>➥ <gray>In Bank: </gray>%bank_balance%</lblue>'
+      - '<lblue>➥ <gray>On Hand: </gray>%player_balance%</lblue>'
+      - ''
+      - <gray>Deposit <lblue>all your</lblue> currency</gray>
+      - <gray>to the shop bank.</gray>
+      - ''
+      - <lblue>→ <u>Click to deposit</u></lblue>
+      Hide_Components: true
+    Slots: '14'
+    Type: deposit_all
+  withdraw_custom:
+    Priority: 10
+    Item:
+      Material: minecraft:orange_bundle
+      Display_Name: <lorange><b>Withdraw</b></lorange> <gray>[<white>Custom Amount</white>]</gray>
+      Lore:
+      - '<lorange>➥ <gray>In Bank: </gray>%bank_balance%</lorange>'
+      - '<lorange>➥ <gray>On Hand: </gray>%player_balance%</lorange>'
+      - ''
+      - <gray>Withdraw <lorange>desired amount</lorange> of the</gray>
+      - <gray>currency to your balance.</gray>
+      - ''
+      - <lorange>→ <u>Click to withdraw</u></lorange>
+      Hide_Components: true
+    Slots: '31'
+    Type: withdraw_custom
+  withdraw_all:
+    Priority: 10
+    Item:
+      Material: minecraft:lava_bucket
+      Display_Name: <lorange><b>Withdraw</b></lorange> <gray>[<white>All</white>]</gray>
+      Lore:
+      - '<lorange>➥ <gray>In Bank: </gray>%bank_balance%</lorange>'
+      - '<lorange>➥ <gray>On Hand: </gray>%player_balance%</lorange>'
+      - ''
+      - <gray>Withdraw <lorange>all</lorange> currency</gray>
+      - <gray>from the bank.</gray>
+      - ''
+      - <lorange>→ <u>Click to withdraw</u></lorange>
+      Hide_Components: true
+    Slots: '32'
+    Type: withdraw_all

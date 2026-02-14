@@ -1,0 +1,811 @@
+Days:
+  THURSDAY: Thursday
+  MONDAY: Monday
+  WEDNESDAY: Wednesday
+  FRIDAY: Friday
+  SUNDAY: Sunday
+  SATURDAY: Saturday
+  TUESDAY: Tuesday
+TradeType:
+  SELL: Sell
+  BUY: Buy
+PriceType:
+  FLOAT: Float
+  DYNAMIC: Dynamic
+  PLAYER_AMOUNT: Player Amount
+  FLAT: Flat
+ProductType:
+  COMMAND: Command
+  EMPTY: Empty
+  ITEM: Item
+Shop:
+  Product:
+    Error:
+      InvalidCartUI: '[sound="minecraft:entity.villager.no;0.8;1.0"]<soft_red>Could not open purchase menu: Cart UI not found.</soft_red>'
+      Unbuyable: '[sound="minecraft:entity.villager.no;0.8;1.0"]<soft_red><b>Sorry! </b></soft_red><gray>This product can''t be purchased currently!</gray>'
+      Unsellable: '[sound="minecraft:entity.villager.no;0.8;1.0"]<soft_red><b>Sorry! </b></soft_red><gray>This product can''t be sold currently!</gray>'
+      OutOfStock: '[sound="minecraft:entity.villager.no;0.8;1.0"]<soft_red><b>Sorry! </b></soft_red><gray>This product is out of stock!</gray>'
+      OutOfSpace: '[sound="minecraft:entity.villager.no;0.8;1.0"]<soft_red><b>Sorry! </b></soft_red><gray>The shop is out of space!</gray>'
+      OutOfFunds: '[sound="minecraft:entity.villager.no;0.8;1.0"]<soft_red><b>Sorry! </b></soft_red><gray>The shop is out of money!</gray>'
+      FullStock: '[sound="minecraft:entity.villager.no;0.8;1.0"]<soft_red><b>Sorry! </b></soft_red><gray>This product is full of stock!</gray>'
+      FullInventory: '[sound="minecraft:entity.villager.no;0.8;1.0"]<soft_red><b>Sorry! </b></soft_red><gray>You have to clean up your inventory before purchase!</gray>'
+      TooExpensive:
+      - '[type="title",sound="minecraft:block.anvil.place;0.8;1.0",title_times="20:60:20"]'
+      - <soft_red><b>Too Expensive!</b></soft_red>
+      - <gray>You need <soft_red>%price%</soft_red>!</gray>
+      NotEnoughItems:
+      - '[type="title",sound="minecraft:block.anvil.place;0.8;1.0",title_times="20:60:20"]'
+      - <soft_red><b>Not Enough Items!</b></soft_red>
+      - <gray>You need <soft_red>x%amount% %item%</soft_red>!</gray>
+  Cart:
+    CustomAmount: <gray>Enter your amount...</gray>
+Other:
+  PriceDisabled: N/A
+  NoRent: < Not Rented >
+  Undefined: <soft_gray>« <u>Undefined</u> »</soft_gray>
+Editor:
+  Price:
+    Float:
+      NoDays: No days set. Price won't refresh properly.
+      NoTimes: No times set. Price won't refresh properly.
+  Generic:
+    BrokenItem:
+      Name: <soft_red>< Invalid Item> </soft_red>
+      Lore:
+      - <gray>Item tag/ID is broken or invalid.</gray>
+    Enter:
+      Name: <gray>Enter <green>[Name]</green></gray>
+      Amount: <gray>Enter <green>[Amount]</green></gray>
+      Value: <gray>Enter <green>[Value]</green></gray>
+      Day: <gray>Enter <green>[Day Name]</green></gray>
+      Time: <gray>Enter <green>[Time]</green> like <green>22:00</green></gray>
+      Seconds: <gray>Enter <green>[Seconds Amount]</green></gray>
+  Product:
+    Enter:
+      Price: <gray>Enter <green>[Price]</green></gray>
+      UniPrice: <gray>Enter <green>[Min] [Max]</green></gray>
+      Currency: <gray>Enter <green>[Currency Identifier]</green></gray>
+  Title:
+    Shop:
+      List: <black>Virtual Shop Editor</black>
+      Settings: <black>Shop Settings</black>
+      Layouts: <black>Shop Layouts</black>
+      Rotations: <black>Shop Rotations</black>
+      Rotation:
+        Options: <black>Rotation Options</black>
+        Times: <black>Rotation Times</black>
+        Items: <black>Rotation Items</black>
+        ItemSelection: <black>Select Product...</black>
+        SlotSelection: <black>Select Slot(s)...</black>
+    Product:
+      Creation: <black>Product Creation</black>
+      Settings: <black>Product Options</black>
+      Stocks: <black>Product Stock Options</black>
+      Price: <black>Product Price Options</black>
+    Products:
+      Normal: <black>Shop Products (Normal)</black>
+      Rotating: <black>Shop Products (Rotating)</black>
+Auction:
+  SortType:
+    NEWEST: Newest
+    MATERIAL: Material
+    NAME: Name
+    LEAST_EXPENSIVE: Least Expensive
+    SELLER: Seller
+    OLDEST: Oldest
+    MOST_EXPENSIVE: Most Expensive
+  Command:
+    Argument:
+      Name:
+        Price: price
+    Open:
+      Desc: Open auction.
+    Sell:
+      Desc: Add item on auction.
+      Error:
+        NoItem: <soft_red>You must hold an item to do that!</soft_red>
+    Expired:
+      Desc: List of expired listings.
+    History:
+      Desc: Your sales history.
+    Selling:
+      Desc: List of your current listings.
+    Unclaimed:
+      Desc: List of unclaimed rewards for your listings.
+  Listing:
+    Add:
+      Success:
+        Info:
+        - '[sound="minecraft:block.note_block.bell;0.8;1.0"]'
+        - ' '
+        - <soft_green><b>✔ Success!</b></soft_green>
+        - ' '
+        - <gray>You added <soft_green>x%listing_item_amount% %listing_item_name%</soft_green> on auction for <soft_green>%listing_price%</soft_green>!</gray>
+        - '<gray>Tax amount: <soft_red>%tax%</soft_red></gray>'
+        - ' '
+        Broadcast:
+        - '[prefix="false"]'
+        - ' '
+        - <soft_yellow><b>Auction:</b></soft_yellow>
+        - <gray>Player <soft_yellow>%player_display_name%</soft_yellow> added <soft_yellow>x%listing_item_amount%</soft_yellow> <hover:show_item:"%listing_item_value%"><soft_yellow>%listing_item_name%</soft_yellow></hover> on the auction for <soft_yellow>%listing_price%</soft_yellow>.</gray>
+        - ' '
+      Error:
+        BadItem: '[sound="minecraft:entity.villager.no;0.8;1.0"]<gray><soft_red>✘ %item%</soft_red> can not be added on the auction!</gray>'
+        Limit: '[sound="minecraft:entity.villager.no;0.8;1.0"]<gray><soft_red>✘</soft_red> You can''t have more than <soft_red>%amount%</soft_red> active items on the auction!</gray>'
+        Price:
+          Tax: '[sound="minecraft:entity.villager.no;0.8;1.0"]<gray><soft_red>✘</soft_red> You can''t afford the <soft_red>%tax%</soft_red> price tax: <soft_red>%amount%</soft_red>!</gray>'
+          Currency:
+            Min: '[sound="minecraft:entity.villager.no;0.8;1.0"]<gray><soft_red>✘</soft_red> Minimal <soft_red>%currency_name%</soft_red> price is <soft_red>%amount%</soft_red>!</gray>'
+            Max: '[sound="minecraft:entity.villager.no;0.8;1.0"]<gray><soft_red>✘</soft_red> Maximal <soft_red>%currency_name%</soft_red> price is <soft_red>%amount%</soft_red>!</gray>'
+          Negative: '[sound="minecraft:entity.villager.no;0.8;1.0"]<gray><soft_red>✘</soft_red> Invalid price!</gray>'
+          Material:
+            Min: '[sound="minecraft:entity.villager.no;0.8;1.0"]<gray><soft_red>✘</soft_red> Minimal <soft_red>x1 %item%</soft_red> price is <soft_red>%amount%</soft_red>!</gray>'
+            Max: '[sound="minecraft:entity.villager.no;0.8;1.0"]<gray><soft_red>✘</soft_red> Maximal <soft_red>x1 %item%</soft_red> price is <soft_red>%amount%</soft_red>!</gray>'
+        DisabledGamemode: '[sound="minecraft:entity.villager.no;0.8;1.0"]<gray><soft_red>✘</soft_red> You can''t add items in your current gamemode!</gray>'
+    Buy:
+      Success:
+        Info:
+        - '[type="title",sound="minecraft:entity.player.levelup;0.8;1.0",title_times="20:60:20"]'
+        - <soft_green><b>Successful Purchase!</b></soft_green>
+        - <gray>You bought <soft_green>x%listing_item_amount% %listing_item_name%</soft_green> from <soft_green>%listing_seller%</soft_green> for <soft_green>%listing_price%</soft_green>!</gray>
+      Error:
+        NotEnoughFunds:
+        - '[type="title",sound="minecraft:block.anvil.place;0.8;1.0",title_times="20:60:20"]'
+        - <soft_red><b>Not Enough Funds!</b></soft_red>
+        - <gray>You need <soft_red>%listing_price%</soft_red>. You have <soft_red>%balance%</soft_red>.</gray>
+  Notify:
+    Listing:
+      Claim: <gray><soft_green>✔</soft_green> You claimed <soft_green>%listing_price%</soft_green> for <soft_green>%listing_item_name%</soft_green>!</gray>
+      Unclaimed:
+      - '[prefix="false"]'
+      - ' '
+      - <soft_yellow><b>Auction:</b></soft_yellow>
+      - <gray>You have <soft_yellow>%amount%</soft_yellow> unclaimed listing's incomes!</gray>
+      - ''
+      - <gray>Click <click:run_command:"/ah unclaimed"><hover:show_text:"<gray>Click to claim your incomes!</gray>"><soft_yellow><b>HERE</b></soft_yellow></hover></click> to claim now!</gray>
+      - ' '
+      Expired:
+      - '[prefix="false"]'
+      - ' '
+      - <soft_orange><b>Auction:</b></soft_orange>
+      - <gray>You have <soft_orange>%amount%</soft_orange> expired listings!</gray>
+      - ''
+      - <gray>Click <click:run_command:"/ah expired"><hover:show_text:"<gray>Click to return your items.</gray>"><soft_orange><b>HERE</b></soft_orange></hover></click> to return them.</gray>
+      - ' '
+  UI:
+    BuyConfirm:
+      Listing:
+        Name: '%listing_item_name%'
+        Lore:
+        - '%listing_item_lore%'
+        - '%empty-if-above%'
+        - '<gray>Price: </gray><soft_yellow>%listing_price%</soft_yellow>'
+        - '<gray>Seller: </gray><white>%listing_seller%</white>'
+  Error:
+    DisabledWorld: <gray><soft_red>✘</soft_red> Auction is disabled in this world!</gray>
+ChestShop:
+  Command:
+    Argument:
+      Name:
+        BuyPrice: buyPrice
+        SellPrice: sellPrice
+        ShopBlock: blockType
+        ItemName: itemName
+    Browse:
+      Desc: Browse shop owners.
+    List:
+      Desc: Browse your shops.
+    Search:
+      Desc: Search shops by item.
+    PlayerSearch:
+      Desc: Search shops by player.
+    Bank:
+      Desc: Open [player's] bank.
+    Create:
+      Desc: Create a shop.
+    GiveItem:
+      Desc: Give shop creation item.
+      Done: <gray>Given <soft_yellow>%name%</soft_yellow> to <soft_yellow>%player_display_name%</soft_yellow>.</gray>
+    Remove:
+      Desc: Removes the shop from the chest that you're looking at.
+    OpenInv:
+      Desc: Open shop's inventory.
+  Shop:
+    Error:
+      NotOwner: <soft_red>You don't own this shop!</soft_red>
+      Inactive: This shop is not available currently.
+    Creation:
+      Info:
+        Done:
+        - '[type="title",sound="minecraft:block.note_block.bell;0.8;1.0",title_times="20:60:20"]'
+        - <soft_green><b>Shop Created!</b></soft_green>
+        - <gray><soft_green>Right-Click</soft_green> while sneaking to open settings.</gray>
+      Error:
+        AlreadyShop: <soft_red>This chest is already shop!</soft_red>
+        NotEmpty: <soft_red>Please remove all items from the chest first.</soft_red>
+        NotAChest: <soft_red>This block can not be used for shops!</soft_red>
+        BadLocation: <soft_red>You can't create shop here!</soft_red>
+        LimitReached: <soft_red>You have reached the limit of shops! You can't create more.</soft_red>
+        BadArea: <soft_red>You can create shops only inside your own claim!</soft_red>
+        NotEnoughFunds: <soft_red>You don't have enough funds!</soft_red>
+    Removal:
+      Error:
+        NotEmpty: <soft_red>Please withdraw items from shop storage to remove it.</soft_red>
+        NotAShop: <soft_red>This block is not a shop!</soft_red>
+      Info:
+        Done: '[type="title",sound="minecraft:entity.generic.explode;0.8;1.0",title_times="20:60:20"]<soft_red><b>Shop Removed!</b></soft_red>'
+    Rename:
+      Error:
+        TooLong: <soft_red>Name is too long! Max. length is %amount%</soft_red>
+    Teleport:
+      Error:
+        Unsafe: <soft_red>Teleport cancelled due to unsafe shop location.</soft_red>
+    Trade:
+      Buy:
+        Info:
+          User: '[prefix="false"]<soft_yellow>You bought <orange>x%amount% %item%</orange> for <orange>%price%</orange> from <orange>%shop_name%</orange> shop.</soft_yellow>'
+          Owner: '[prefix="false"]<soft_yellow><orange>%player_display_name%</orange> bought <orange>x%amount% %item%</orange> for <orange>%price%</orange> from your <orange>%shop_name%</orange> shop.</soft_yellow>'
+      Sell:
+        Info:
+          User: '[prefix="false"]<soft_yellow>You sold <orange>x%amount% %item%</orange> for <orange>%price%</orange> to <orange>%shop_name%</orange> shop.</soft_yellow>'
+          Owner: '[prefix="false"]<soft_yellow><orange>%player_display_name%</orange> sold <orange>x%amount% %item%</orange> for <orange>%price%</orange> to your <orange>%shop_name%</orange> shop.</soft_yellow>'
+    Bank:
+      Error:
+        InvalidCurrency:
+        - '[type="title",title_times="20:60:20"]'
+        - <soft_red><b>Operation Failed!</b></soft_red>
+        - <gray>Incorrect currency!</gray>
+      Deposit:
+        Success: <gray>You deposit <soft_green>%amount%</soft_green> to shop bank!</gray>
+        Error:
+          NotEnough: <gray>You don't have enough funds!</gray>
+      Withdraw:
+        Success: <gray>You withdraw <soft_green>%amount%</soft_green> from shop bank!</gray>
+        NotEnough: <gray>There is not enough funds in bank!</gray>
+    InfiniteStorage:
+      Deposit:
+        Success: <gray>You deposit <soft_green>x%amount% %item%</soft_green> to shop storage!</gray>
+        Error:
+          NotEnough: <gray>You don't have enough items!</gray>
+      Withdraw:
+        Success: <gray>You withdraw <soft_green>x%amount% %item%</soft_green> from shop storage!</gray>
+        NotEnough: <gray>There is not enough items in storage!</gray>
+  Product:
+    Error:
+      BadItem: <soft_red>This item can not be used in shop!</soft_red>
+  Editor:
+    Error:
+      ProductLeft: <soft_red>You must take all of this product from the chest!</soft_red>
+    PriceMenu: <black>Price Settings</black>
+  Notification:
+    ShopEarnings:
+    - '[prefix="false"]'
+    - ' '
+    - <soft_green><b>Shops Income:</b></soft_green>
+    - '<gray>While you were offline your shops earned: <soft_green>%amount%</soft_green></gray>'
+    - ' '
+  Search:
+    ItemPrompt:
+    - '[type="title",sound="minecraft:block.lava.pop;0.8;1.0",title_times="20:-1:20"]'
+    - <soft_yellow><b>Shop Search</b></soft_yellow>
+    - <gray>Enter <soft_yellow>item name</soft_yellow> to search.</gray>
+    PlayerPrompt:
+    - '[type="title",sound="minecraft:block.lava.pop;0.8;1.0",title_times="20:-1:20"]'
+    - <soft_yellow><b>Shop Search</b></soft_yellow>
+    - <gray>Enter <soft_yellow>player name</soft_yellow> to search.</gray>
+  Rent:
+    Error:
+      AlreadyRented:
+      - '[type="title",sound="minecraft:entity.villager.no;0.8;1.0",title_times="20:60:20"]'
+      - <soft_red><b>Already Rented!</b></soft_red>
+      - <gray>This shop is already rented by someone.</gray>
+      NotRented:
+      - '[type="title",sound="minecraft:entity.villager.no;0.8;1.0",title_times="20:60:20"]'
+      - <soft_red><b>Not Rented!</b></soft_red>
+      - <gray>You don't rent this shop.</gray>
+      NotRentable:
+      - '[type="title",sound="minecraft:entity.villager.no;0.8;1.0",title_times="20:60:20"]'
+      - <soft_red><b>Not Rentable!</b></soft_red>
+      - <gray>This shop is not available for rent.</gray>
+      InsufficientFunds:
+      - '[type="title",sound="minecraft:entity.villager.no;0.8;1.0",title_times="20:60:20"]'
+      - <soft_red><b>Insufficient Funds!</b></soft_red>
+      - <gray>You need <soft_red>%price%</soft_red> to rent this shop.</gray>
+    Prompt:
+      Duration: <gray>Enter <green>[Days Amount]</green></gray>
+      Price: <gray>Enter <green>[Rent Price]</green></gray>
+    Rent:
+      Success:
+      - '[type="title",sound="minecraft:block.iron_door.open;0.8;1.0",title_times="20:60:20"]'
+      - <soft_green><b>Shop Rented!</b></soft_green>
+      - <gray>You rented this shop for <soft_green>%time%</soft_green>.</gray>
+    Extend:
+      Success:
+      - '[type="title",sound="minecraft:block.iron_door.open;0.8;1.0",title_times="20:60:20"]'
+      - <soft_green><b>Rent Extended!</b></soft_green>
+      - <gray>You extended shop rent for <soft_green>%time%</soft_green>.</gray>
+    Cancel:
+      ByRenter:
+      - '[type="title",sound="minecraft:entity.zombie.break_wooden_door;0.8;1.0",title_times="20:60:20"]'
+      - <soft_green><b>Rent Cancelled!</b></soft_green>
+      - <gray>You're no longer renting the <soft_green>%shop_name%</soft_green> shop.</gray>
+      ByOwner:
+      - '[type="title",sound="minecraft:entity.zombie.break_wooden_door;0.8;1.0",title_times="20:60:20"]'
+      - <soft_green><b>Rent Cancelled!</b></soft_green>
+      - <gray><soft_green>%shop_rented_by%</soft_green> is no longer renting the <soft_green>%shop_name%</soft_green> shop.</gray>
+Error:
+  Command:
+    Argument:
+      InvalidShopBlock: <gray><soft_red>%input%</soft_red> is not a valid shop block!</gray>
+VirtualShop:
+  Command:
+    Argument:
+      Name:
+        Shop: shop
+    Editor:
+      Desc: Open VirtualShop editor.
+    Rotate:
+      Desc: Force rotate a shop.
+      Done: <gray>Force rotated <soft_yellow>%shop_name%</soft_yellow> shop</gray>
+    Open:
+      Desc: Opens specified shop.
+      Done:
+        Others: <gray>Opened <soft_yellow>%shop_name%</soft_yellow> shop for <soft_yellow>%player_name%</soft_yellow>.</gray>
+    Menu:
+      Desc: Opens Main Menu.
+      Done:
+        Others: <gray>Opened shops menu for <soft_yellow>%player_name%</soft_yellow>.</gray>
+    Shop:
+      Desc: Open specified shop or main menu.
+    ShopAlias:
+      Desc: Open %shop_name% shop.
+    SellMenu:
+      Desc: Open Sell GUI.
+      Done:
+        Others: <gray>Opened sell menu for <soft_yellow>%player_name%</soft_yellow>.</gray>
+    SellAll:
+      Desc: Quickly sell all items in inventory.
+      Done:
+        Others: <gray>Forced player <soft_yellow>%player_name%</soft_yellow> to sell all items.</gray>
+    SellHand:
+      Desc: Quickly sell hand item.
+      Done:
+        Others: <gray>Forced player <soft_yellow>%player_name%</soft_yellow> to sell hand item.</gray>
+    SellHandAll:
+      Desc: Quickly sell similar hand items.
+    Syntax:
+      InvalidShop: <gray><soft_red>%input%</soft_red> is not a valid shop!</gray>
+  Shop:
+    Rotation:
+      Update:
+      - '[prefix="false"]'
+      - ' '
+      - <gray>New items just appeared in the <soft_yellow>%shop_name%</soft_yellow> shop!</gray>
+      - <gray>Click <click:run_command:"/shop %shop_id%"><hover:show_text:"<gray>Click to open shop!</gray>"><soft_yellow><b>HERE</b></soft_yellow></hover></click> to open the shop!</gray>
+      - ' '
+    Error:
+      BadWorld: <soft_red>You can't use shop in this world!</soft_red>
+      BadGamemode: <soft_red>You can't use shop in current gamemode!</soft_red>
+      InvalidLayout: '<gray>Could not open shop <soft_red>%shop_name%</soft_red>: Invalid shop layout!</gray>'
+    Create:
+      Error:
+        Exist: <soft_red>Shop with such name already exists!</soft_red>
+        BadName: <soft_red>Only latin letters and numbers are allowed!</soft_red>
+  Product:
+    Purchase:
+      Sell:
+      - '[type="title",sound="minecraft:entity.experience_orb.pickup;0.8;1.0",title_times="20:60:20"]'
+      - <soft_green><b>Successful Sale!</b></soft_green>
+      - <gray>You sold <soft_green>x%amount% %item%</soft_green> for <soft_green>%price%</soft_green></gray>
+      Buy:
+      - '[type="title",sound="minecraft:entity.experience_orb.pickup;0.8;1.0",title_times="20:60:20"]'
+      - <soft_green><b>Successful Purchase!</b></soft_green>
+      - <gray>You bought <soft_green>x%amount% %item%</soft_green> for <soft_green>%price%</soft_green></gray>
+  SellMenu:
+    NothingResult:
+    - '[type="title",sound="minecraft:block.anvil.place;0.8;1.0",title_times="20:60:20"]'
+    - <soft_red><b>Nothing to Sell!</b></soft_red>
+    - <gray>You don't have items to sell.</gray>
+    NothingDetails:
+    - '[prefix="false"]'
+    - ' '
+    - <soft_red><b>Sale Details:</b></soft_red>
+    - <gray>There are no items in your inventory that can be sold.</gray>
+    - ' '
+    - <gray>If you have stacked Shulker Boxes or Chests with items inside,</gray>
+    - <gray>split them by single stacks to sell.</gray>
+    - ' '
+    SaleResult:
+    - '[type="title",sound="minecraft:entity.experience_orb.pickup;0.8;1.0",title_times="20:60:20"]'
+    - <soft_green><b>Items Sold!</b></soft_green>
+    - <gray>+%total%</gray>
+    SaleDetails:
+    - '[prefix="false"]'
+    - ' '
+    - <soft_green><b>Sale Details:</b></soft_green>
+    - '%entry%'
+    - ' '
+    - '<gray>Total: <soft_green>%total%</soft_green></gray>'
+    - ' '
+    SaleEntry: '<gray>x%amount% <white>%item%</white>: <soft_green>%price%</soft_green> <dark_gray>(<white>%shop_name%</white>)</dark_gray></gray>'
+  Price:
+    AverageDynamics:
+      Up: <green>↑ %value%%</green>
+      Down: <red>↓ %value%%</red>
+  Error:
+    Editor:
+      RotationExists: <soft_red>Rotation with that name already exists!</soft_red>
+  Dialog:
+    Generic:
+      Button:
+        Apply:
+          Label: <green>✔</green> <white>Apply</white>
+          Width: 150
+        Reset:
+          Label: <red>✘</red> <white>Reset</white>
+          Width: 150
+        Back:
+          Label: <soft_yellow>←</soft_yellow> <white>Back</white>
+          Width: 150
+    ShopCreation:
+      Title: <soft_aqua><b><soft_aqua><b>SHOP EDITOR</b></soft_aqua><dark_gray> » </dark_gray>Shop Creation</b></soft_aqua>
+      Body:
+        Contents:
+        - Provide an <soft_yellow>internal name</soft_yellow> for a new shop.
+        - This name is not visible for players and <soft_yellow>must be unique</soft_yellow> for each shop.
+        - ''
+        - '<green>✔</green> Valid Input: <green>letters <gray>(abc)</gray></green>, <green>numbers <gray>(shop123)</gray></green>, <green>underscore <gray>(my_shop)</gray></green>'
+        - ''
+        - '<soft_red>✘</soft_red> Invalid Input: <soft_red>spaces <gray>(my shop)</gray></soft_red>, <soft_red>colors <gray>(\&dMyShop)</gray></soft_red>, <soft_red>emojis <gray>(♥my_shop♥)</gray></soft_red>'
+        - ''
+        - <soft_yellow>→</soft_yellow> Shop files will be created in the <soft_yellow>%path%</soft_yellow> directory.
+        Width: 400
+      Input:
+        ShopId:
+          Contents: Shop ID
+          Width: 200
+      Button:
+        Create:
+          Label: <soft_yellow>Create!</soft_yellow>
+          Width: 150
+    ShopName:
+      Title: <soft_aqua><b>SHOP EDITOR</b></soft_aqua><dark_gray> » </dark_gray>Shop Name
+      Body:
+        Contents:
+        - Sets custom shop display name.
+        - ''
+        - Feel free to use the <soft_yellow>%shop_name%</soft_yellow> placeholder in configuration files to "insert" shop name in GUIs and messages.
+        Width: 250
+      Input:
+        ShopName:
+          Contents: Name
+          Width: 200
+    ShopDescription:
+      Title: <soft_aqua><b>SHOP EDITOR</b></soft_aqua><dark_gray> » </dark_gray>Shop Description
+      Body:
+        Contents:
+        - Sets custom shop description.
+        - ''
+        - Feel free to use the <soft_yellow>%shop_description%</soft_yellow> placeholder in configuration files to "insert" shop description in GUIs and messages.
+        Width: 300
+      Input:
+        Text:
+          Contents: Description
+          Width: 200
+    ShopAliases:
+      Title: <soft_aqua><b>SHOP EDITOR</b></soft_aqua><dark_gray> » </dark_gray>Shop Aliases
+      Body:
+        Contents:
+        - Here you can add custom aliases for the shop.
+        - These aliases will be registered as <soft_yellow>server commands</soft_yellow>, and running one of them will open this shop.
+        - ''
+        - <soft_orange>⚠</soft_orange> Players must have the <soft_orange>%permission%</soft_orange> permission to access these commands.
+        - ''
+        - <soft_red>→</soft_red> Enter <soft_red>one</soft_red> alias <soft_red>per line</soft_red>.
+        Width: 400
+      Input:
+        Text:
+          Contents: Aliases
+          Width: 200
+        Reload: Reload commands
+    ShopSlots:
+      Title: <soft_aqua><b>SHOP EDITOR</b></soft_aqua><dark_gray> » </dark_gray>Menu Slots
+      Body:
+        Contents:
+        - Sets shop slots for the <soft_yellow>Central Shop GUI</soft_yellow>.
+        - ''
+        - You can assign <soft_yellow>multiple slots</soft_yellow> for the same shop <gray>(useful for GUIs with custom textures)</gray>
+        - ''
+        - <green>✔ Green</green> = current shop slot(s).
+        - <red>✘ Red</red> = occupied by other shop(s).
+        Width: 300
+    ShopPages:
+      Title: <soft_aqua><b>SHOP EDITOR</b></soft_aqua><dark_gray> » </dark_gray>Pages Amount
+      Body:
+        Contents:
+        - Defines how many pages the shop will have.
+        - ''
+        - <soft_red>→</soft_red>Ensure that <soft_red>Shop Layout(s)</soft_red> config file contains <soft_red>page buttons</soft_red>!
+        Width: 400
+      Input:
+        Pages:
+          Contents: Pages
+          Width: 200
+    ShopLayouts:
+      Title: <soft_aqua><b>SHOP EDITOR</b></soft_aqua><dark_gray> » </dark_gray>Page Layouts
+      Body:
+        Contents:
+        - Layouts defines the appearance of the shop's GUI.
+        - ''
+        - You can customize and create your own layouts in the <soft_yellow>%path%</soft_yellow> directory.
+        - ''
+        - In <gold>Global</gold> mode, you can set one layout for the entire shop.
+        - ''
+        - In <blue>Paginated</blue> mode, you can set a separate layout for each shop page.
+        Width: 400
+      Input:
+        Page: '<soft_yellow>Page #%page%</soft_yellow>'
+        Default: <soft_yellow>Global Layout</soft_yellow>
+      Button:
+        ModeGlobal:
+          Label: <soft_yellow>→</soft_yellow> Switch to <soft_yellow>Global</soft_yellow> mode
+          Width: 150
+        ModePaginated:
+          Label: <soft_yellow>→</soft_yellow> Switch to <soft_yellow>Paginated</soft_yellow> mode
+          Width: 150
+    ProductPrice:
+      Title: <soft_aqua><b>SHOP EDITOR</b></soft_aqua><dark_gray> » </dark_gray>Product Price
+      Body:
+        Flat:
+          Contents: Flat pricing allows you to set a <soft_yellow>fixed</soft_yellow> price for an item, without any conditions that would change it automatically.
+          Width: 400
+        Float:
+          Contents:
+          - Floating pricing allows you to set an <soft_yellow>automatically</soft_yellow> generated price for an item within defined boundaries.
+          - The price can change at <soft_yellow>specific hours</soft_yellow> or at a set <soft_yellow>interval</soft_yellow>.
+          - ''
+          - <soft_yellow>→</soft_yellow> The min. and max. values for buying and selling prices are set in the fields below.
+          - ''
+          - <soft_yellow>→</soft_yellow> The time for automatic price updates is set using the <soft_yellow>Refresh Times</soft_yellow> button.
+          Width: 400
+        Dynamic:
+          Contents:
+          - Dynamic pricing allows the item's price to change <soft_yellow>automatically</soft_yellow> by a specified percentage with <soft_yellow>each</soft_yellow> purchase or sale, up to defined limits.
+          - ''
+          - <soft_yellow>→</soft_yellow> The initial price is set in the <soft_yellow>Initial Price</soft_yellow> field.
+          - ''
+          - <soft_yellow>→</soft_yellow> The percentage modifier applied on buying and selling is set in the <soft_yellow>On Buy Offset</soft_yellow> and <soft_yellow>On Sell Offset</soft_yellow> fields, respectively.
+          - ''
+          - <soft_yellow>→</soft_yellow> The lower and upper bounds of the modifier are set in the <soft_yellow>Min Offset</soft_yellow> and <soft_yellow>Max Offset</soft_yellow> fields.
+          Width: 400
+        Players:
+          Contents:
+          - Online-based pricing allows the item's price to change <soft_yellow>automatically</soft_yellow> by a specified percentage based on <soft_yellow>online players</soft_yellow> count.
+          - ''
+          - <soft_yellow>→</soft_yellow> The initial price is set in the <soft_yellow>Initial Price</soft_yellow> field.
+          - ''
+          - <soft_yellow>→</soft_yellow> The percentage modifier applied per player online is set in the <soft_yellow>Per Player Offset</soft_yellow> field.
+          - ''
+          - <soft_yellow>→</soft_yellow> The lower and upper bounds of the modifier are set in the <soft_yellow>Min Offset</soft_yellow> and <soft_yellow>Max Offset</soft_yellow> fields.
+          Width: 400
+      Button:
+        Pricing:
+          Label: '<soft_yellow>→</soft_yellow> Pricing: <soft_yellow>%type%</soft_yellow>'
+          Tooltip: <red>Changing the pricing will cause the item's price data to reset!</red>
+          Width: 150
+        Currency:
+          Label: '<soft_yellow>→</soft_yellow> Currency: <soft_yellow>%currency_name%</soft_yellow>'
+          Width: 150
+      Float:
+        Button:
+          Times:
+            Label: <soft_yellow>⌛</soft_yellow> Refresh Times
+            Width: 150
+        Input:
+          BuyMin:
+            Contents: <soft_green>[$]</soft_green> Buy Price <gray>(Min)</gray>
+            Width: 200
+          BuyMax:
+            Contents: <soft_green>[$]</soft_green> Buy Price <gray>(Max)</gray>
+            Width: 200
+          SellMin:
+            Contents: <soft_red>[$]</soft_red> Sell Price <gray>(Min)</gray>
+            Width: 200
+          SellMax:
+            Contents: <soft_red>[$]</soft_red> Sell Price <gray>(Max)</gray>
+            Width: 200
+          Rounding: Round Prices
+      Flat:
+        Input:
+          Buy:
+            Contents: <soft_green>[$]</soft_green> Buy Price
+            Width: 200
+          Sell:
+            Contents: <soft_red>[$]</soft_red> Sell Price
+            Width: 200
+      Dynamic:
+        Input:
+          Buy:
+            Start:
+              Contents: '<soft_green>[$] Buy Price: </soft_green>Initial Value'
+              Width: 200
+            BuyOffset:
+              Contents: '<soft_green>[$] Buy Price: </soft_green>On Buy Offset <gray>(in %)</gray>'
+              Width: 200
+            SellOffset:
+              Contents: '<soft_green>[$] Buy Price: </soft_green>On Sell Offset <gray>(in %)</gray>'
+              Width: 200
+            MinOffset:
+              Contents: '<soft_green>[$] Buy Price: </soft_green>Min. Offset <gray>(in %)</gray>'
+              Width: 200
+            MaxOffset:
+              Contents: '<soft_green>[$] Buy Price: </soft_green>Max. Offset <gray>(in %)</gray>'
+              Width: 200
+          Sell:
+            Start:
+              Contents: '<soft_red>[$] Sell Price: </soft_red>Initial Value'
+              Width: 200
+            BuyOffset:
+              Contents: '<soft_red>[$] Sell Price: </soft_red>On Buy Offset <gray>(in %)</gray>'
+              Width: 200
+            SellOffset:
+              Contents: '<soft_red>[$] Sell Price: </soft_red>On Sell Offset <gray>(in %)</gray>'
+              Width: 200
+            MinOffset:
+              Contents: '<soft_red>[$] Sell Price: </soft_red>Min. Offset <gray>(in %)</gray>'
+              Width: 200
+            MaxOffset:
+              Contents: '<soft_red>[$] Sell Price: </soft_red>Max. Offset <gray>(in %)</gray>'
+              Width: 200
+          Stabilize:
+            Interval:
+              Contents: '<soft_yellow>[⌛] Stabilization: </soft_yellow>Interval <gray>(in seconds)</gray>'
+              Width: 200
+            Amount:
+              Contents: '<soft_yellow>[⌛] Stabilization: </soft_yellow>Amount <gray>(in %)</gray>'
+              Width: 200
+      Players:
+        Input:
+          Buy:
+            Offset:
+              Contents: '<soft_green>[$] Buy Price: </soft_green>Per Player Offset'
+              Width: 200
+          Sell:
+            Offset:
+              Contents: '<soft_red>[$] Sell Price: </soft_red>Per Player Offset'
+              Width: 200
+      FloatTimes:
+        Title: <soft_aqua><b>SHOP EDITOR</b></soft_aqua><dark_gray> » </dark_gray>Float Pricing Times
+        Body:
+          Interval:
+            Contents:
+            - In <soft_yellow>Interval</soft_yellow> mode, the item’s price is updated at a specified interval.
+            - ''
+            - <soft_yellow>→</soft_yellow> To set the interval, enter the desired value in the field below.
+            Width: 400
+          Scheduled:
+            Contents:
+            - In <soft_yellow>Scheduled</soft_yellow> mode, the item’s price is updated strictly at the specified <soft_yellow>hours</soft_yellow> on selected <soft_yellow>days</soft_yellow> of the week.
+            - ''
+            - <soft_yellow>→</soft_yellow> To set the <soft_yellow>hours</soft_yellow>, enter the desired times in the <soft_yellow>Times</soft_yellow> field <gray>(one time per line)</gray>.
+            - ''
+            - <soft_yellow>→</soft_yellow> To choose the <soft_yellow>days</soft_yellow>, click the weekday buttons. The selected days are highlighted in <green>green</green>.
+            Width: 400
+        Input:
+          Interval:
+            Contents: Interval <soft_yellow>(in seconds)</soft_yellow>
+            Width: 120
+          Times:
+            Contents: Times <soft_yellow>(in 24-hour HH:MM format)</soft_yellow>
+            Width: 150
+        Button:
+          DayActive:
+            Label: <green>[X]</green> %name%
+            Width: 100
+          DayInactive:
+            Label: <gray>[ ] %name%</gray>
+            Width: 100
+          ModeInterval:
+            Label: <soft_yellow>→</soft_yellow> Switch to <soft_yellow>Interval</soft_yellow> mode
+            Width: 150
+          ModeScheduled:
+            Label: <soft_yellow>→</soft_yellow> Switch to <soft_yellow>Scheduled</soft_yellow> mode
+            Width: 150
+    ProductCurrency:
+      Title: <soft_aqua><b>SHOP EDITOR</b></soft_aqua><dark_gray> » </dark_gray>Item Currency
+    ProductCommands:
+      Title: <soft_aqua><b>SHOP EDITOR</b></soft_aqua><dark_gray> » </dark_gray>Product Commands
+      Body:
+        Contents:
+        - Enter the commands that will be executed when a player purchases this item.
+        - <soft_red>(one command per line)</soft_red>
+        - ''
+        - <soft_yellow><b>PLACEHOLDERS:</b></soft_yellow>
+        - <soft_yellow>→</soft_yellow> The <soft_yellow>%amount%</soft_yellow> placeholder for the <soft_yellow>selected quantity</soft_yellow>.
+        - <soft_yellow>→</soft_yellow> The <soft_yellow>%player_name%</soft_yellow> placeholder for the <soft_yellow>player name</soft_yellow>.
+        - ''
+        - <green>✔</green> Internal <green>Shop</green> and <green>Product</green> placeholders are available.
+        - <green>✔</green> External <green>PlaceholderAPI</green> placeholders are available.
+        Width: 400
+      Input:
+        Text:
+          Contents: Commands
+          Width: 300
+  Editor:
+    Product:
+      NoRankRequirements: No rank(s) required!
+      NoPermissionRequirements: No permission(s) required!
+      NoForbiddenPerms: No permission(s) forbidden!
+      Commands:
+        Name: <soft_yellow><b>Commands</b></soft_yellow>
+        Lore:
+        - '%product_commands%'
+        - ' '
+        - <gray>Commands to run when a player buys this item.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Click to edit</u></soft_yellow>
+    Enter:
+      Id: <gray>Enter <green>[Shop Identifier]</green></gray>
+      Description: <gray>Enter <green>[Description]</green></gray>
+      Command: <gray>Enter <green>[Command]</green></gray>
+      Alias: <gray>Enter <green>[Command Alias]</green></gray>
+      Rank: <gray>Enter <green>[Rank Name]</green></gray>
+      Permission: <gray>Enter <green>[Permission Node]</green></gray>
+      RotationId: <gray>Enter <green>[Rotation Name]</green></gray>
+      Weight: <gray>Enter <green>[Weight]</green></gray>
+    Icon:
+      AddShop:
+        Name: <green><b>Add Shop</b></green>
+        Lore:
+        - <gray>Create a new GUI shop.</gray>
+        - ' '
+        - <green>→ <u>Click to create</u></green>
+      Shop:
+        Name: <soft_yellow><b>%shop_name%</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>ID: <white>%shop_id%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Items: <white>%shop_products%</white></gray>'
+        - '<gray><dark_gray>» </dark_gray>Pages: <white>%shop_pages%</white></gray>'
+        - ' '
+        - <soft_yellow>→ <u>Click to edit</u></soft_yellow>
+      ShopName:
+        Name: <soft_yellow><b>Name</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Current: <white>%shop_name%</white></gray>'
+        - ' '
+        - <soft_yellow>→ <u>Click to change</u></soft_yellow>
+      ShopDescription:
+        Name: <soft_yellow><b>Description</b></soft_yellow>
+        Lore:
+        - <gray>%shop_description%</gray>
+        - ' '
+        - <soft_yellow>→ <u>Click to change</u></soft_yellow>
+      ShopIcon:
+        Name: <soft_yellow><b>Icon</b></soft_yellow>
+        Lore:
+        - <gray>Just a shop icon.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Click inv. item to set</u></soft_yellow>
+      ShopAliases:
+        Name: <soft_yellow><b>Aliases</b></soft_yellow>
+        Lore:
+        - <gray>%shop_aliases%</gray>
+        - ' '
+        - <gray>Add custom aliases for the shop.</gray>
+        - ' '
+        - <gray>Each alias becomes a server command</gray>
+        - <gray>that opens this shop.</gray>
+        - ' '
+        - <soft_yellow>→ <u>Click to change</u></soft_yellow>
+      ShopSlots:
+        Name: <soft_yellow><b>Menu Slots</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Current: <white>%shop_menu_slot%</white></gray>'
+        - ' '
+        - <soft_yellow>→ <u>Click to change</u></soft_yellow>
+      ShopPages:
+        Name: <soft_yellow><b>Pages Amount</b></soft_yellow>
+        Lore:
+        - '<gray><dark_gray>» </dark_gray>Current: <white>%shop_pages%</white></gray>'
+        - ' '
+        - <soft_yellow>→ <u>Click to change</u></soft_yellow>

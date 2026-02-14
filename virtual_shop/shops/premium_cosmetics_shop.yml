@@ -1,0 +1,195 @@
+Settings:
+  Aliases: []
+  Name: Premium Cosmetics
+  Description:
+  - <gray>Kosmetik eksklusif dengan</gray>
+  - <gray>NaturalCoin</gray>
+  - ' '
+  - <c:#FFFF55>→ <b><u>CLICK</u></b> to browse</c>
+  Icon:
+    Material: minecraft:nether_star
+    Display_Name: <gradient:#FFFF55:#55FF55><b>PREMIUM COSMETICS</b></gradient>
+    Lore: []
+  Permission_Required: false
+  Buying: true
+  Selling: false
+  Pages: 1
+  MainMenu:
+    Slot: '49'
+Layout:
+  Paginated: false
+
+Items:
+  template_nc_1:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:gold_ingot"}'
+    Currency: coinsengine:naturalcoin
+    Price:
+      Type: FLAT
+      BUY: 100.0
+    Shop_View:
+      Slot: 10
+      Page: 1
+      Display_Name: "<#FFAA00><b>♛ Mahkota Emas ♛</b></#FFAA00>"
+      Lore:
+      - "<gray>Hanya untuk yang terpilih</gray>"
+      - ""
+      - "<gray>Harga: <#FFFF55>100 NC</#FFFF55>"
+
+  dragon_wings:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:elytra"}'
+    Currency: coinsengine:naturalcoin
+    Price:
+      Type: FLAT
+      BUY: 500.0
+    Shop_View:
+      Slot: 11
+      Page: 1
+      Display_Name: "<#AA0000><b>Sayap Naga Hitam</b></#AA0000>"
+      Lore:
+      - "<gray>Terbang dengan kemewahan</gray>"
+      - ""
+      - "<gray>Harga: <#FFFF55>500 NC</#FFFF55>"
+
+  premium_cloak:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:black_banner"}'
+    Currency: coinsengine:naturalcoin
+    Price:
+      Type: FLAT
+      BUY: 250.0
+    Shop_View:
+      Slot: 12
+      Page: 1
+      Display_Name: "<#5555FF><b>Nebula Cloak</b></#5555FF>"
+      Lore:
+      - "<gray>Jubah animasi galaksi</gray>"
+      - ""
+      - "<gray>Harga: <#FFFF55>250 NC</#FFFF55>"
+
+  phoenix_pet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:blaze_powder"}'
+    Currency: coinsengine:naturalcoin
+    Price:
+      Type: FLAT
+      BUY: 1000.0
+    Shop_View:
+      Slot: 19
+      Page: 1
+      Display_Name: "<#FFAA00><b>Legendary Phoenix</b></#FFAA00>"
+      Lore:
+      - "<gray>Teman abadi dari api</gray>"
+      - ""
+      - "<gray>Harga: <#FFFF55>1.000 NC</#FFFF55>"
+
+  fire_aura:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:magma_cream"}'
+    Currency: coinsengine:naturalcoin
+    Price:
+      Type: FLAT
+      BUY: 150.0
+    Shop_View:
+      Slot: 20
+      Page: 1
+      Display_Name: "<#AA0000><b>Fire Aura Particles</b></#AA0000>"
+      Lore:
+      - "<gray>Kelilingi dirimu dengan api</gray>"
+      - ""
+      - "<gray>Harga: <#FFFF55>150 NC</#FFFF55>"
+
+  general_tag:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:name_tag"}'
+    Currency: coinsengine:naturalcoin
+    Price:
+      Type: FLAT
+      BUY: 300.0
+    Shop_View:
+      Slot: 21
+      Page: 1
+      Display_Name: "<#AA0000>[<b>GENERAL</b>]</#AA0000> &fTag"
+      Lore:
+      - "<gray>Pangkat tertinggi di medan tempur</gray>"
+      - ""
+      - "<gray>Harga: <#FFFF55>300 NC</#FFFF55>"
+
+  aura_wealth:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:emerald"}'
+    Currency: coinsengine:naturalcoin
+    Price:
+      Type: FLAT
+      BUY: 500.0
+    Shop_View:
+      Slot: 28
+      Page: 1
+      Display_Name: "<#55FF55><b>Aura of Wealth</b></#55FF55>"
+      Lore:
+      - "<gray>Partikel berlian yang mengikuti</gray>"
+      - "<gray>setiap langkahmu.</gray>"
+      - ""
+      - "<gray>Harga: <#FFFF55>500 NC</#FFFF55>"
+
+  celestial_phoenix:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:totem_of_undying"}'
+    Currency: coinsengine:naturalcoin
+    Price:
+      Type: FLAT
+      BUY: 2000.0
+    Shop_View:
+      Slot: 29
+      Page: 1
+      Display_Name: "<#FFFF55><b>Celestial Phoenix Mount</b></#FFFF55>"
+      Lore:
+      - "<gray>Kendarai burung legendaris</gray>"
+      - "<gray>langsung dari surga.</gray>"
+      - ""
+      - "<gray>Harga: <#FFFF55>2.000 NC</#FFFF55>"
+
+  pass_booster:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:experience_bottle"}'
+    Currency: coinsengine:naturalcoin
+    Price:
+      Type: FLAT
+      BUY: 1500.0
+    Shop_View:
+      Slot: 30
+      Page: 1
+      Display_Name: "<#AA00FF><b>BattlePass Mega Booster</b></#AA00FF>"
+      Lore:
+      - "<gray>Instan naik 5 level di</gray>"
+      - "<gray>NaturalPass milikmu!</gray>"
+      - ""
+      - "<gray>Harga: <#FFFF55>1.500 NC</#FFFF55>"

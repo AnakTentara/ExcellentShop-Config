@@ -1,0 +1,396 @@
+Settings:
+  Aliases: []
+  Name: Natural Shop
+  Description:
+  - <gray>Pusat Kosmetik & Barang Premium</gray>
+  - <gray>Pilih kategori yang kamu inginkan</gray>
+  - ' '
+  - <c:#7FEFD0>→ <b><u>CLICK</u></b> to browse</c>
+  Icon:
+    Material: minecraft:nether_star
+    Display_Name: <gradient:#00AAFF:#00FF00><b>NATURAL SHOP</b></gradient>
+    Lore: []
+  Permission_Required: false
+  Buying: false
+  Selling: false
+  Pages: 1
+  MainMenu:
+    Slot: '49'
+Layout:
+  Paginated: false
+
+# ==============================================================================
+# NATURAL SHOP - CATEGORY MENU
+# ==============================================================================
+# This shop acts as a category selector. Click to open sub-shops.
+# ==============================================================================
+
+Items:
+  # ==============================
+  # CATEGORY: COSMETICS (RUPIAH)
+  # ==============================
+  category_cosmetics:
+    Type: COMMAND
+    Command:
+      PLAYER:
+      - "virtualshop open cosmetics_shop"
+    Shop_View:
+      Slot: 11
+      Page: 1
+      Item:
+        Material: minecraft:leather_helmet
+        Display_Name: "<gradient:#FFAA00:#FF5555><b>✦ COSMETICS ✦</b></gradient>"
+        Lore:
+        - ""
+        - "<gray>Kosmetik yang bisa dibeli</gray>"
+        - "<gray>dengan <#FFAA00>Rupiah (Rp)</#FFAA00></gray>"
+        - ""
+        - "<gray>• Topi & Helmet Skins</gray>"
+        - "<gray>• Pet Companions</gray>"
+        - "<gray>• Particles & Auras</gray>"
+        - "<gray>• Chat Tags</gray>"
+        - ""
+        - "<#55FF55>➥ KLIK untuk melihat</#55FF55>"
+
+  # ==============================
+  # CATEGORY: RANKS
+  # ==============================
+  category_ranks:
+    Type: COMMAND
+    Command:
+      PLAYER:
+      - "ranks"
+    Shop_View:
+      Slot: 13
+      Page: 1
+      Item:
+        Material: minecraft:diamond
+        Display_Name: "<gradient:#55FFFF:#AA00FF><b>✦ RANKS ✦</b></gradient>"
+        Lore:
+        - ""
+        - "<gray>Beli Rank untuk akses fitur</gray>"
+        - "<gray>eksklusif selama <#FFFF55>30 Hari</#FFFF55></gray>"
+        - ""
+        - "<gray>• <#FF55FF>MIDI</#FF55FF> - Rank Pemula</gray>"
+        - "<gray>• <#55FF55>VIP</#55FF55> - Rank Menengah</gray>"
+        - "<gray>• <#55FFFF>MVP</#55FFFF> - Rank Elite</gray>"
+        - "<gray>• <#FFFF55>NATURE</#FFFF55> - Rank Legendaris</gray>"
+        - ""
+        - "<#55FF55>➥ KLIK untuk melihat</#55FF55>"
+
+  # ==============================
+  # CATEGORY: PREMIUM COSMETICS (NC)
+  # ==============================
+  category_premium:
+    Type: COMMAND
+    Command:
+      PLAYER:
+      - "virtualshop open premium_cosmetics_shop"
+    Shop_View:
+      Slot: 15
+      Page: 1
+      Item:
+        Material: minecraft:nether_star
+        Display_Name: "<gradient:#FFFF55:#55FF55><b>✦ PREMIUM COSMETICS ✦</b></gradient>"
+        Lore:
+        - ""
+        - "<gray>Kosmetik eksklusif dengan</gray>"
+        - "<gray><#FFFF55>NaturalCoin (NC)</#FFFF55></gray>"
+        - ""
+        - "<gray>• Sayap & Elytra Skins</gray>"
+        - "<gray>• Legendary Mounts</gray>"
+        - "<gray>• Premium Auras</gray>"
+        - "<gray>• BattlePass Boosters</gray>"
+        - ""
+        - "<#55FF55>➥ KLIK untuk melihat</#55FF55>"
+
+  # ==============================
+  # DECORATION: GLASS BORDER
+  # ==============================
+  glass_1:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 0
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_2:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 1
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_3:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 2
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_4:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 3
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_5:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 4
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_6:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 5
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_7:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 6
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_8:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 7
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_9:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 8
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_10:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 9
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_12:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 10
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_14:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 12
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_16:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 14
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_18:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 16
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_17:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 17
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_19:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 18
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_20:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 19
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_21:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 20
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_22:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 21
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_23:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 22
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_24:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 23
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_25:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 24
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_26:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 25
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []
+
+  glass_27:
+    Type: COMMAND
+    Command:
+      PLAYER: []
+    Shop_View:
+      Slot: 26
+      Page: 1
+      Item:
+        Material: minecraft:gray_stained_glass_pane
+        Display_Name: " "
+        Lore: []

@@ -1,0 +1,29 @@
+Settings:
+  # GUI title.
+  Title: <black>Unclaimed Listings</black>
+  # GUI size. Must be multiply of 9.
+  # Useful for 'CHEST' Inventory Type only.
+  Size: 54
+  # GUI type.
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/inventory/InventoryType.html
+  Inventory_Type: CHEST
+  # Sets GUI auto-refresh interval (in seconds). Set this to 0 to disable.
+  Auto_Refresh: 1
+  PlaceholderAPI:
+    # Sets whether PlaceholderAPI placeholders will be applied on all items from the 'Content' section of this GUI.
+    # [*] Disable if you don't use any PlaceholderAPI placeholders on your items to improve GUI performance.
+    Enabled: false
+Items:
+  Name: <lyellow><b>%listing_item_name%</b></lyellow>
+  Lore:
+  - '%listing_item_lore%'
+  - ''
+  - <lyellow><b>Info:</b></lyellow>
+  - '<lyellow>▪ <lgray>Price: </lgray>%listing_price%</lyellow>'
+  - '<lyellow>▪ <lgray>Buyer: </lgray>%listing_buyer%</lyellow>'
+  - '<lyellow>▪ <lgray>Date: </lgray>%listing_buy_date%</lyellow>'
+  - ''
+  - '<lgray><lred>[❗]</lred> Deletes in: <lred>%listing_deletes_in%</lred></lgray>'
+  - ''
+  - <lgray><lyellow>[▶]</lyellow> Click to <lyellow>claim %listing_price%</lyellow>.</lgray>
+  Slots: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35

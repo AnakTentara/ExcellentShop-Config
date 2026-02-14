@@ -1,0 +1,188 @@
+_dataver: 414
+General:
+  # Sets how often (in seconds) shop changes will be saved (written) to their configuration files.
+  # [Asynchronous]
+  # [Default is 300]
+  Save_Interval: 300
+  # Sets default product purchase menu config.
+  # You can create and edit Cart UIs in /menu/product_carts/ directory.
+  Default_Cart_UI: default
+  # Sets whether or not Virtual Shop will use different purchase menus for buying and selling.
+  Split_BuySell_Cart_UI: false
+  # Sets default product purchase menu config for buying if Split option is enabled.
+  # You can create and edit Cart UIs in /menu/product_carts/ directory.
+  Default_Buy_Cart_UI: default
+  # Sets default product purchase menu config for selling if Split option is enabled.
+  # You can create and edit Cart UIs in /menu/product_carts/ directory.
+  Default_Sell_Cart_UI: default
+  # Sets default shop layout configuration in case if shop's one is not existing anymore.
+  Default_Layout: default
+  Main_Menu:
+    # Enables the Main Menu feature, where you can list all your Virtual Shops.
+    Enabled: true
+    # When enabled, hides shops from the main menu a player don't have access to.
+    Hide_No_Permission_Shops: true
+  Shop_Shortcut:
+    # Enables the Shop Shortcut and Shop Aliases commands features. Allows to quickly open shops.
+    Enabled: true
+    # Command aliases for quick main menu and shop access.
+    # Split with commas.
+    Commands: shop
+  Sell_Menu:
+    # When 'true' enables the Sell Menu feature, where you can quickly sell all your items.
+    Enabled: true
+    # Sets whether or not Sell Menu should be simplified.
+    # When simplified, no item and click validation is performed, so menu acts like a regular chest,
+    # and items will be sold on close instead of button click.
+    Simplified: false
+    # Custom command aliases to open the Sell Menu. Split with commas.
+    Commands: sellgui,sellmenu
+  Sell_All:
+    # Enables the Sell All command feature.
+    Enabeled: true
+    # Sell All command aliases. Split with commas.
+    Commands: sellall
+  Sell_Hand:
+    # Enables the Sell Hand feature.
+    Enabled: true
+    # Sell Hand command aliases. Split with commas.
+    Commands: sellhand
+  Sell_Hand_All:
+    # Enables the Sell Hand All feature.
+    Enabled: true
+    # Sell Hand All command aliases. Split with commas.
+    Commands: sellhandall
+  # Here you can define Sell Multipliers for certain ranks.
+  # If you want to use permission based system, you can use 'excellentshop.virtual.sellmultiplier.[name]' permission pattern.
+  # (make sure to use names different from your permission ranks then)
+  # Formula: '<sellPrice> * <sellMultiplier>'. So, 1.0 = 100% (no changes), 1.5 = +50%, 0.75 = -25%, etc.
+  Sell_Multipliers:
+    # Available values: RANK, PERMISSION
+    # ==================== RANK MODE ====================
+    # Get value by player's permission group. All keys in 'Values' list will represent permission group names.
+    # If player has none of specified groups, the 'Default_Value' setting will be used then
+    #   Values:
+    #     vip: 1 # -> Player must be in 'vip' permission group.
+    #     gold: 2 # -> Player must be in 'gold' permission group.
+    #     emerald: 3 # -> Player must be in 'emerald' permission group.
+    #
+    # ==================== PERMISSION MODE ====================
+    # Get value by player's permissions. All keys in 'Values' list will represent postfixes for the 'Permission_Prefix' setting (see below).
+    # If player has none of specified permissions, the 'Default_Value' setting will be used then
+    #   Permission_Prefix: 'example.prefix.'
+    #   Values:
+    #     vip: 1 # -> Player must have 'example.prefix.vip' permission.
+    #     gold: 2 # -> Player must have 'example.prefix.gold' permission.
+    #     emerald: 3 # -> Player must have 'example.prefix.emerald' permission.
+    Mode: RANK
+    # Sets permission prefix for the 'PERMISSION' mode.
+    Permission_Prefix: excellentshop.virtual.sellmultiplier.
+    Default_Value: 1.0
+    Values:
+      vip: 1.5
+      gold: 2.0
+  # Players can not use shops in specified gamemodes.
+  # Available values: CREATIVE, SURVIVAL, ADVENTURE, SPECTATOR
+  Disabled_In_Gamemodes:
+  - CREATIVE
+  # Players can not use shops in specified worlds. Case sensetive.
+  Disabled_In_Worlds:
+  - world_name
+  - example_world123
+SellFeatures:
+  Containers:
+    # Controls whether content of the 'container' items, such as Shulker Boxes, Chests, etc, is included for the Sell All, Sell GUI features.
+    # [*] Does not includes Bundles yet.
+    ContentIncluded: true
+GUI:
+  Shop_Format:
+    # Sets display name for the shop item in the Main Menu.
+    # You can use 'Vritual Shop' placeholders:https://nightexpressdev.com/excellentshop/placeholders
+    Name: '%shop_icon_name%'
+    # Sets lore for the shop item in the Main Menu.
+    # You can use 'Virtual Shop' placeholders: https://nightexpressdev.com/excellentshop/placeholders
+    Lore:
+    - '%shop_description%'
+  Product_Format:
+    Lore:
+      # Product lore format. Use '%lore%' placeholder to insert original lore of the product item.
+      # You can use 'Virtual Product' placeholders: https://nightexpressdev.com/excellentshop/placeholders
+      Main:
+      - '%permission%'
+      - '%discount%'
+      - '%empty-if-above%'
+      - '%lore%'
+      - '%empty-if-above%'
+      - '%buy%'
+      - '%empty-if-above%'
+      - '%sell%'
+      - '%empty-if-above%'
+      - <dgray>Hold <lgray>Shift</lgray> to buy & sell quickly.</dgray>
+      # Lore that will appear if product is buyable.
+      # Placeholder: %buy%
+      Buy:
+      - <green><b>BUY:</b></green>
+      - <green>←<white> Left Click to buy for </white>%product_price_buy_formatted%</green>
+      - '%empty-if-below%'
+      - '%price_dynamic_buy%'
+      - '%empty-if-above%'
+      - '%stock_global_buy%'
+      - '%stock_player_buy%'
+      # Text to appear if product is sellable.
+      # Placeholder: %sell%
+      Sell:
+      - <red><b>SELL:</b></red>
+      - <red>→<white> Right Click to sell for </white>%product_price_sell_formatted%</red>
+      - <red>→<white> Press [F] to sell all for </white>%product_price_sell_all_formatted%</red>
+      - '%empty-if-below%'
+      - '%price_dynamic_sell%'
+      - '%empty-if-above%'
+      - '%stock_global_sell%'
+      - '%stock_player_sell%'
+      # Text to appear if product has active discount.
+      # Placeholder to insert: %discount%
+      Discount:
+      - <gray><green>✔</green> Discount <green><b>%product_discount_amount%%</b></green>!</gray>
+      # Text to appear if player don't have access to a product.
+      # Placeholder to insert: %permission%
+      NoPermission:
+      - <gray><red>✘</red> You don't have access to this item!</gray>
+      # Text to appear when product has dynamic/float price.
+      # Placeholders to insert:
+      # %price_dynamic_buy%
+      # %price_dynamic_sell%
+      PriceDynamics:
+        SELL:
+        - '<red>[?]<white> Average: </white>%product_price_avg_sell%<white> | Dynamics: </white>%product_price_avg_diff_sell%</red>'
+        BUY:
+        - '<green>[?]<white> Average: </white>%product_price_avg_buy%<white> | Dynamics: </white>%product_price_avg_diff_buy%</green>'
+      Stock:
+        GLOBAL:
+          # Text to appear when product has buy/sell stock configured.
+          # Placeholders to insert:
+          # %stock_global_buy%
+          BUY:
+          - '<green>● <white>Stock: </white>%product_stock_global_buy_amount_left%<white>/</white>%product_stock_global_buy_amount_initial%</green><gray> (<white>%product_stocks_restock_date%</white>)</gray>'
+          # Text to appear when product has buy/sell stock configured.
+          # Placeholders to insert:
+          # %stock_global_sell%
+          SELL:
+          - '<red>● <white>Stock: </white>%product_stock_global_sell_amount_left%<white>/</white>%product_stock_global_sell_amount_initial%</red><gray> (<white>%product_stocks_restock_date%</white>)</gray>'
+        PLAYER:
+          # Text to appear when product has buy/sell limits configured.
+          # Placeholders to insert:
+          # %stock_player_buy%
+          BUY:
+          - '<green>● <white>Your Limit: </white>%product_stock_player_buy_amount_left%<white>/</white>%product_stock_player_buy_amount_initial%</green><gray> (<white>%product_limits_restock_date%</white>)</gray>'
+          # Text to appear when product has buy/sell limits configured.
+          # Placeholders to insert:
+          # %stock_player_sell%
+          SELL:
+          - '<red>● <white>Your Limit: </white>%product_stock_player_sell_amount_left%<white>/</white>%product_stock_player_sell_amount_initial%</red><gray> (<white>%product_limits_restock_date%</white>)</gray>'
+Transaction_Logs:
+  Output:
+    File: true
+    Console: true
+  Format:
+    Date: dd/MM/yyyy HH:mm:ss
+    Purchase: '%type%: %player_name% - x%amount% of %item% for %price% in %shop_name% shop.'
