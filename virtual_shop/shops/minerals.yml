@@ -489,6 +489,9 @@ Items:
         SellOffset: -1.0
         MinOffset: -10.0
         MaxOffset: 15.0
+      Stabilization:
+        Interval: -1
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1402,6 +1405,9 @@ Items:
         SellOffset: -1.0
         MinOffset: -10.0
         MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
