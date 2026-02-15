@@ -477,8 +477,18 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 1000.0
-      BUY: 5000.0
+      BUY:
+        Start: 5000.0
+        Min: 4500.0
+        Max: 5750.0
+        OnBuyOffset: 1.0
+        OnSellOffset: -1.0
+      SELL:
+        Start: 1000.0
+        Min: 900.0
+        Max: 1150.0
+        OnBuyOffset: 1.0
+        OnSellOffset: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1380,8 +1390,18 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 2000.0
-      BUY: 10000.0
+      BUY:
+        Start: 10000.0
+        Min: 9000.0
+        Max: 11500.0
+        OnBuyOffset: 1.0
+        OnSellOffset: -1.0
+      SELL:
+        Start: 2000.0
+        Min: 1800.0
+        Max: 2300.0
+        OnBuyOffset: 1.0
+        OnSellOffset: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
