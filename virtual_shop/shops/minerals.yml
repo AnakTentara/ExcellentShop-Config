@@ -34,8 +34,21 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 50.0
-      BUY: 250.0
+      Buy:
+        Start: 250.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Sell:
+        Start: 50.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -63,8 +76,21 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 150.0
-      BUY: 750.0
+      Buy:
+        Start: 750.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Sell:
+        Start: 150.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -92,8 +118,21 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 100.0
-      BUY: 500.0
+      Buy:
+        Start: 500.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Sell:
+        Start: 100.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -121,8 +160,21 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 50.0
-      BUY: 250.0
+      Buy:
+        Start: 250.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Sell:
+        Start: 50.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -150,8 +202,21 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 40.0
-      BUY: 200.0
+      Buy:
+        Start: 200.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Sell:
+        Start: 40.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -179,8 +244,21 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 30.0
-      BUY: 150.0
+      Buy:
+        Start: 150.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Sell:
+        Start: 30.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -208,8 +286,21 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 20.0
-      BUY: 100.0
+      Buy:
+        Start: 100.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Sell:
+        Start: 20.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -519,8 +610,21 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 300.0
-      BUY: 1500.0
+      Buy:
+        Start: 1500.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Sell:
+        Start: 300.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -548,8 +652,21 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 120.0
-      BUY: 600.0
+      Buy:
+        Start: 600.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Sell:
+        Start: 120.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -577,8 +694,21 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 70.0
-      BUY: 350.0
+      Buy:
+        Start: 350.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Sell:
+        Start: 70.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1277,8 +1407,21 @@ Items:
     Currency: vault
     Price:
       Type: DYNAMIC
-      SELL: 40.0
-      BUY: 200.0
+      Buy:
+        Start: 200.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Sell:
+        Start: 40.0
+        BuyOffset: 1.0
+        SellOffset: -1.0
+        MinOffset: -10.0
+        MaxOffset: 15.0
+      Stabilization:
+        Interval: 60
+        Amount: 0.0
     Stock:
       GLOBAL:
         BuyAmount: -1
