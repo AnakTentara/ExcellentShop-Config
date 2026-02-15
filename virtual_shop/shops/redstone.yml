@@ -33,9 +33,9 @@ Items:
     Forbidden_Permissions: []
     Currency: vault
     Price:
-      Type: FLAT
-      SELL: 50.0
-      BUY: 1000.0
+      Type: DYNAMIC
+      SELL: 4.0
+      BUY: 20.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -92,8 +92,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 200.0
-      BUY: 2000.0
+      SELL: 100.0
+      BUY: 500.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -121,8 +121,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 200.0
-      BUY: 2000.0
+      SELL: 150.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -150,8 +150,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 1100.0
-      BUY: 11000.0
+      SELL: 400.0
+      BUY: 2000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -179,8 +179,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 400.0
-      BUY: 4000.0
+      SELL: 300.0
+      BUY: 1500.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -208,8 +208,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 650.0
-      BUY: 6500.0
+      SELL: 500.0
+      BUY: 2500.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -382,8 +382,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 400.0
-      BUY: 4000.0
+      SELL: 300.0
+      BUY: 1500.0
     Stock:
       GLOBAL:
         BuyAmount: -1
