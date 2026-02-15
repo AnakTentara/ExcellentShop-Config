@@ -36,7 +36,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -65,7 +65,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -94,7 +94,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 450.0
+      BUY: 900.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -123,7 +123,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -152,7 +152,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -181,7 +181,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 200.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -210,7 +210,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -239,7 +239,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -268,7 +268,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 500.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -297,7 +297,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 600.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -326,7 +326,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -355,7 +355,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 500.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -384,7 +384,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -413,7 +413,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -442,7 +442,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -471,7 +471,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -500,7 +500,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -529,7 +529,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -558,7 +558,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -587,7 +587,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 150.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -616,7 +616,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 150.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -645,7 +645,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -674,7 +674,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -703,7 +703,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -732,7 +732,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -761,7 +761,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -790,7 +790,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -819,7 +819,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -848,7 +848,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -877,7 +877,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -906,7 +906,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 450.0
+      BUY: 900.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -935,7 +935,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -964,7 +964,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -993,7 +993,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 200.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1022,7 +1022,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1051,7 +1051,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1080,7 +1080,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 500.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1138,7 +1138,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1167,7 +1167,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 500.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1196,7 +1196,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1225,7 +1225,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1254,7 +1254,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1283,7 +1283,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1312,7 +1312,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1341,7 +1341,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1370,7 +1370,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1399,7 +1399,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 150.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1428,7 +1428,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 150.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1457,7 +1457,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1486,7 +1486,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1515,7 +1515,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1544,7 +1544,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1573,7 +1573,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1602,7 +1602,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1631,7 +1631,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1660,7 +1660,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 200.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1689,7 +1689,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 200.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1718,7 +1718,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1747,7 +1747,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 200.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1776,7 +1776,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 200.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1834,7 +1834,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 200.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1863,7 +1863,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1892,7 +1892,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1921,7 +1921,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1950,7 +1950,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1979,7 +1979,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2008,7 +2008,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 150.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2037,7 +2037,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2066,7 +2066,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 150.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2095,7 +2095,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 150.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2124,7 +2124,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 200.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2153,7 +2153,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 200.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2182,7 +2182,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 150.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2269,7 +2269,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 200.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2298,7 +2298,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 200.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2327,7 +2327,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2356,7 +2356,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2385,7 +2385,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 300.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2414,7 +2414,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2443,7 +2443,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2472,7 +2472,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2501,7 +2501,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2530,7 +2530,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 500.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2559,7 +2559,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2588,7 +2588,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2617,7 +2617,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2646,7 +2646,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2675,7 +2675,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 450.0
+      BUY: 900.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2704,7 +2704,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 600.0
+      BUY: 1200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2762,7 +2762,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 500.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2791,7 +2791,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 500.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2820,7 +2820,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2849,7 +2849,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2878,7 +2878,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2907,7 +2907,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2936,7 +2936,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 500.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2965,7 +2965,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2994,7 +2994,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -3023,7 +3023,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -3052,7 +3052,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 250.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -3081,7 +3081,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 350.0
+      BUY: 700.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -3168,7 +3168,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 500.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -3197,7 +3197,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 500.0
+      BUY: 1000.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -3226,7 +3226,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -3255,7 +3255,7 @@ Items:
     Price:
       Type: FLAT
       SELL: -1.0
-      BUY: 400.0
+      BUY: 800.0
     Stock:
       GLOBAL:
         BuyAmount: -1

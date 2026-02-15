@@ -79,8 +79,10 @@ General:
     Permission_Prefix: excellentshop.virtual.sellmultiplier.
     Default_Value: 1.0
     Values:
-      vip: 1.5
-      gold: 2.0
+      midi: 1.05
+      vip: 1.1
+      mvp: 1.2
+      nature: 1.3
   # Players can not use shops in specified gamemodes.
   # Available values: CREATIVE, SURVIVAL, ADVENTURE, SPECTATOR
   Disabled_In_Gamemodes:
