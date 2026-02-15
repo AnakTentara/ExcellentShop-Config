@@ -35,9 +35,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 300.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -65,9 +64,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 50.0
       BUY: 400.0
-
+      SELL: 50.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -95,9 +93,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 80.0
       BUY: 500.0
-
+      SELL: 80.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -125,9 +122,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 800.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -157,9 +153,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 80.0
       BUY: 500.0
-
+      SELL: 80.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -187,9 +182,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1200.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -217,9 +211,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1000.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -247,9 +240,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 400.0
       BUY: 2500.0
-
+      SELL: 400.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -277,9 +269,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 3000.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -314,9 +305,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 60.0
       BUY: 500.0
-
+      SELL: 60.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -344,9 +334,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 400.0
       BUY: 2500.0
-
+      SELL: 400.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -374,9 +363,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 300.0
       BUY: 2000.0
-
+      SELL: 300.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -404,9 +392,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 250.0
       BUY: 1500.0
-
+      SELL: 250.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -434,9 +421,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1000.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -464,9 +450,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 400.0
       BUY: 2500.0
-
+      SELL: 400.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -494,9 +479,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 650.0
       BUY: 4000.0
-
+      SELL: 650.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -524,9 +508,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: 1300.0
       BUY: 8000.0
-
+      SELL: 1300.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -554,9 +537,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1000.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -584,9 +566,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1200.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -614,9 +595,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1000.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -644,9 +624,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 2000.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -674,9 +653,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1200.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -704,9 +682,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1500.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -734,9 +711,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1500.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -764,9 +740,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1500.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -794,9 +769,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1500.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -824,9 +798,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 2000.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -854,9 +827,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
       BUY: 1500.0
-
+      SELL: -1.0
     Stock:
       GLOBAL:
         BuyAmount: -1
